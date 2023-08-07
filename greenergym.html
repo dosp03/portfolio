@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dorothee Sperker - Digital Media Marketing Student</title>
+    <meta name="title" content="Dorothee Sperker - Digital Marketing Student">
+    <meta name="description" content="Personal Portfolio of a digital media marketing student displaying her skills in devoloping creative and user-friendly concepts for websites, apps and other media.">
+
+    <!-- wenn Favicon als svg abgespeichert: <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">-->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+ 
+    <!--Google Font => kann alternativ auch über css eingebunden werden (wie bei übung)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap">
+
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- Bilder laden => werden vom Browser vorgeladen und nicht erst, wenn sie in Website gebraucht werden-->
+    <link rel="preload" as="image" href="./img/Wireframes Übersicht.png">
+    <!-- 
+        
+        noch weitere Bilder hier einfügen, bei denen Ladezeit schlecht für experience wäre
+    
+    //-->
+
+    <!-- Google Analytics Einbindung (noch Tagnummer undso einblenden)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-XXXXXXXXX-X');
+    </script>-->
+</head>
+
+<body>
+    
+    <button id="scroll-top-btn">
+        <ion-icon class="upIcon" name="arrow-up-outline"></ion-icon>
+    </button>
+
+
+    <!-------------
+        Navbar 
+    --------------->
+
+    <nav data-nav>
+        <div class="content">
+            <div class="logo"> 
+                <a href="#"> <img src="./img/logo.png"></a>
+            </div>
+
+            <!-- Inhalt außer Logo-->
+            <div class="inner-content">
+
+                <!--Menu-Items-->
+                <ul class="menu-list">
+                    <!--vor Menu-Items (nur bei geöffneter Navbar)-->
+                    <div class="navbar-top"> 
+                        <div class="logo">
+                            <a href="#"> <img src="/img/logo.png"></a>
+                        </div>
+                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+                    <li> <a href="index.html" class="nav-link"> Home </a></li>
+                    <li> <!--<a href="" class="nav-link"> Projects </a>-->
+                        <a href="./projects.html" class="nav-link project-btn">
+                            <span> Projekte </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+                    <li> <a href="#" class="nav-link"> About </a></li>
+                    
+                    <li> <a href="#" class="nav-link"> Skills </a></li>
+                    <li> <a href="#" class="nav-link"> Contact </a></li>
+                </ul>
+    
+                <!--Social-Media & Language-->
+                <div class="right-content">
+                    <!--<div class="social-icons">
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+                    </div>-->
+                    <button id="language-toggle">DE</button>
+                </div>
+
+            </div>
+
+        <div class="overlay"> </div>
+            
+            <!--Hamburger-Menu-Icon (bei kleineren screens)-->
+            <div class="hamburger-menu">
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </div>
+        </div>
+
+    </nav>
+
+    <!----------------
+        Case-Study content
+    ----------------->
+
+    <section class="section hero greenergym">
+       <div class="container">
+            <div class="hero content">
+                <h1>Greenergym.</h1>
+                <h2> A fitnessmall prioritizing your health just as much as nature.</h2> 
+                <p class="section-text"> 
+                     Greenergym, die Fitnessmall, umfasst 3 unterschiedliche Bereiche (GreenerGym, GreenerFoods und GreenerWear) die sich gegenseitig ergänzen, sodass dem Fitness- und Umweltliebhaber ein ganzheitliches, ideales
+                        Fitnesserlebnis, ein „Rundum-Paket“ geboten wird. 
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="./img/Greenergym_Mockup.png" style="width: 100%; height: 100%;"alt="">
+            </div>
+        </div>
+    </section>   
+    
+    <section class="section introduction">
+        <div class="container">
+
+        <!--Project Goals-->
+        <div class="project-goals">
+             
+            <h2 class="overlined"> Project Scope</h2>
+            <p>As a team of three, our task was the Innovation & Development of a Brand, its Business Concept and Corporate Identity, including the Corporate Design.
+                The brand idea was developed collectively, my specific role however was to Design of Digital Interfaces.
+                The following goals:</p>
+
+            <!-- deutsch: Die Aufgabe, die unsere dreiköpfiges Team-->
+
+            <div class="goal-grid">
+                <div class="goal-1">
+                    <h2> 01</h2>
+                    <h3> Finding and occupying a niche</h3>
+                    <p>  focuses on fulfilling genuine customer demand,  meets customers' needs
+                        identifies a specific market niche that combines an active lifestyle and environmental consciousness.
+                        The brand strategically targets this niche, fulfilling a genuine customer demand that is currently underserved in the market.
+                        Through its unique positioning and value proposition, Greenergym aims to capture and occupy this market niche effectively.
+                    </p>
+                </div>
+
+                <div class="goal-2">
+                    <h2> 02</h2>
+                    <h3>Developing the Brand</h3>
+                    <p> This case study explores how we strategically developed 
+                        Greenergym as a brand. While the actual brand (and its realization) remains fictious, 
+                        the aim was to establish a promising concept, brand identity and corporate design which would pave the way for measurable long-term success.
+                    </p>
+                </div>
+
+                <div class="goal-3">
+                    <h2 > 03 </h2>
+                    <h3> Designing the Media</h3>
+                    <p> 
+                        In response to emerging trends and societal needs, we made it our mission to bridge 
+                        the gap between fitness and sustainability, by developing a brand that 
+                        not only promotes an active lifestyle but also embraces 
+                        environmental consciousness. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+       
+           
+        </div>
+    </section>
+
+    <!--<section class="section process conceptdev">
+        <div class="container">
+            
+            <h2> Developing Greenergym</h2>
+            <h3> The steps.</h3>
+            
+            Concept Dev Process
+            <ul class="process-grid">  
+                
+            
+                
+                <div class="process-section">   
+                    <div class="process-step">
+                        <img class="step-icon" src="./img/Icons Portfolio/idea.png" alt="lightbulb"><li> Brand Concept</li>
+                    </div>
+                    
+                    <div class="horizontal-line"></div>
+                    <div class="process-step">
+                        <img class="step-icon" src="./img/Icons Portfolio/idea.png" alt="lightbulb"><li> Corporate Design Guidelines</li>
+                    </div>
+
+                    <div class="horizontal-line"></div>
+                    <div class="process-step">
+                        <img class="step-icon" src="./img/Icons Portfolio/idea.png" alt="lightbulb"><li> Logo & Print Media Design </li>
+                    </div>
+                
+                    <div class="horizontal-line"></div>
+                    <div class="process-step">
+                        <img class="step-icon" src="./img/Icons Portfolio/idea.png" alt="lightbulb"><li> User Research for Web & App </li>
+                    </div>
+
+                    
+                    <div class="horizontal-line"></div>
+                    <div class="process-step">
+                        <img class="step-icon" src="./img/Icons Portfolio/idea.png" alt="lightbulb"><li> Wireframing & Low-Fi-Prototype </li>
+                    </div>
+
+                    
+                    div class="horizontal-line"></div>
+                    <div class="process-step">
+                        <img class="step-icon" src="./img/Icons Portfolio/idea.png" alt="lightbulb"><li> UI Design & Hi-Fi-Prototype </li>
+                    </div>
+                </div>
+
+
+                
+            </ul>
+
+
+        </div>
+    </section>-->
+              
+                
+
+    <section class="section conceptdev">
+        <div class="container">
+
+
+            <h3 class="overlined"> Developing the Brand Concept</h3>
+            <h3> The Idea </h3>
+
+            <p>
+                At the start of our project we were in the position of a founding team with the task was to develop the idea for a brand from scratch,
+                so we used brainstorming to find a promising business niche and a business concept that does not exist yet.
+            </p>
+
+            <p style="padding-top: 8px;">
+                The idea of “Greenergym” emerged from recognizing the separate nature of two trends: Fitness and environmental protection - despite their potential for synergy. 
+                People increasingly desire an active lifestyle while also showing a growing 
+                inclination towards environmental consciousness. 
+                From our own experience and further research, we realized that traditional fitness studios often lack sustainability practices, 
+                generating evitable waste and using non-biodegradable materials. 
+            </p>
+            <p style="padding-top: 8px;">
+                Our brand however, is meant to be a self-sufficient system that provides a holistic and eco-friendly fitness experience, minimizes dependence on external resources
+                and only uses sustainable and fair-trade ingredients, materials, and energy sources.
+                This is achieved by the brand consisting of three interconnected sub-brands:  GreenerGym, GreenerFoods, and GreenerWear. 
+            </p>
+            <p style="padding-top: 8px;">
+                Based on this initial idea, the business concept was developed in detail.
+            </p>
+
+            <div class="concept-container">
+                <ul class="grid concept">
+                 
+                    <li class="card card-1">
+                        <img src="./img/Icons Portfolio/light-bulb.png" alt="">
+                        <h4> GreenerGym</h4> 
+                        <p>
+                            focuses on providing an eco-friendly fitness experience. It is the heart of the Fitnessmall where all the sport-activities take place.
+                            GreenerGym ensures that all training equipment is made from sustainable and recyclable materials, free from harmful substances and plastics. 
+                            Using high-quality, durable materials like stainless steel, iron, and solid wood instead of plastic <span class="more" style="display: none;">,and generating electricity by harnessing the power generated by their cardio equipment, 
+                            which is then used to operate the fitness mall, are part of their 
+                            environmentally friendly self-sustainability concept. 
+                            In addition Greenergym offers a mobile app that allows users to track their workouts and earn rewards for generating electricity.
+                        </span>
+                        </p>
+                    </li>
+
+                    <li class="card card-2"> 
+                        
+                        <img src="./img/Icons Portfolio/light-bulb.png" alt="">
+                        <h4> GreenerFoods </h4>
+                        <p>
+                            is a part of Greenergym that emphasizes sustainable and healthy food options, 
+                            striving to combine clean and healthy ingredients with amazing taste and high protein content.
+                            To include options for every preference, they offer vegan, vegetarian, and gluten-free alternatives.
+                            Greenergym grows their own vegetables and fruits in an enclosed area of their outdoor space, which are freshly harvested 
+                            and used in the delicious and nutritious GreenerFoods dishes. <span class="more" style="display: none;">While not all ingredients can be sourced
+                            from their own cultivation due to seasonal variations, Greenergym ensures that the rest of the ingredients are obtained 
+                            from organic and regional sources. They also partner with sustainable snack manufacturers to reduce packaging and
+                            offer unpackaged options.</span>
+                        </p>
+                    </li>
+
+
+                    <li class="card card-3">
+                        
+                        <img src="./img/Icons Portfolio/light-bulb.png" alt="">
+                        <h4> GreenerWear</h4> 
+                        <p>
+                            offers sportswear made from recyclable, recycled, and fair-trade materials. 
+                            The sportswear collection of Greenergym's apparel branch "GreenerWear" includes items made from organic cotton that stems from controlled organic farming and fibers derived from PET bottles. 
+                            They prioritize sustainable and ethical production practices and aim to expand their own production while <span class="more" style="display: none;"> also collaborating with partner companies.
+                            The items from the clothing store can be obtained locally as well as in the online shop or the app.</span>
+                    
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            
+            
+            <!--<h3> Target audience</h3>
+
+            <p>
+                Greenergym is a youthful and forward-thinking company that focuses 
+                on attracting young, environmentally conscious individuals aged 20-35. 
+                They are urban dwellers who actively participate in social activities and 
+                embrace digital connectivity. These individuals prioritize personal growth, 
+                sustainability, and health, falling into two categories: 
+                the expeditive and the neo-ecological milieu. 
+                Greenergym engages them through fitness, environmental passion, digital affinity, 
+                and innovative offering solutions for a greener future.  
+                Allgemein ist das Unternehmenskonzept gänzlich unabhängig von Alter und Geschlecht für
+                alle Menschen offen, Greenergym setzt jedoch einen verstärkten Fokus auf eine junge
+                Zielgruppe, da sich besonders dort ein stärkerer Hang zur Nachhaltigkeit und
+                Umweltbewusstsein ausprägt und gleichzeitig das höchste Potential für körperliche und
+                sportliche Aktivität besteht. 
+
+            </p>-->
+
+            <!-- Market research & Personas-->
+            <section class="section market-analysis">
+                
+                <div style="margin-block: 25px;">
+                    <h3 class="sub-heading"> Market & Competitor Analysis</h3>
+                    <p style="padding-top: 8px; padding-bottom: 25px;"> 
+                        To understand the competitive landscape in which Greenergym 
+                        would operate, we conducted a comprehensive market research.
+                        By defining and examining the competitors, we gained valuable insights into the unique 
+                        positioning opportunities and differentiation chances of Greenergym, 
+                        allowing us to further detail the brand concept and corporate storytelling.
+                    
+                    <!--deutsch:
+                        Um die Wettbewerbslandschaft zu verstehen, in der sich Greenergym behaupten muss, 
+                        haben wir umfassende Marktforschung betrieben. 
+                        Durch die Definition und Untersuchung der Wettbewerber konnten wir wertvolle Erkenntnisse 
+                        über die einzigartigen Positionierungsmöglichkeiten und Differenzierungschancen von Greenergym gewinnen
+                        und konnten das Brand-Concept und Corporate Storytelling detaillieren-->
+                    </p>
+                    <img src="./img/sustainability-scale.png" style="width: 100%;" alt="">
+                </div>
+
+                <div style="margin-block: 25px;">
+                    <h3 class="sub-heading"> Unique Selling Point  </h3>
+                <p> On the basis of the preceding Market Analysis the following aspects could be worked out as the unique positioning of Greenergym  </p>
+                <!--<p> 
+                    Greenergym sets itself apart from the competition by focusing on making the entire fitness experience ecologically, 
+                    sustainably, and climate-neutral.  This extends beyond the gym itself. 
+                    In addition to providing modern technology, ingenuity, and a commitment to change eco-friendly fitness equipment and energy-efficient practices, 
+                    Greenergym incorporates a sustainable clothing store, restaurant, and food store within its premises, creating the Greenergym ecosystem and bringing dynamism and modernity to environmental protection.
+                   
+                    The concept of combining a sustainable clothing store, restaurant, and food store 
+                    into the gym experience is unique to Greenergym. 
+                    This integration allows Greenergym to offer a comprehensive sustainable lifestyle experience to its members by providing not only fitness facilities 
+                    but also options for sustainable clothing and access to healthy food choices.
+                </p>-->
+
+                <div class="usp-card">
+                    
+
+                    <div class="usp-aspect">
+                        <img src="./img/Icons Portfolio/kettlebell.png" alt="kettlebell">
+                        <h4> Sustainable Equipment</h4>
+                        <p>
+                            Greenergym ensures that all training equipment is made from sustainable and recyclable materials, 
+                            avoiding plastics and harmful substances. They primarily use stainless steel, iron, and solid wood instead of plastic, 
+                            making the equipment more durable and less prone to wear and tear.
+                        </p>
+                    </div>
+
+                    <div class="usp-aspect">
+                        <img src="/img/Icons Portfolio/solar-panel.png" alt="solar-panel">
+                        <h4> Green & Renewable Energy</h4>
+                        <p> 
+                            Greenergym not only eliminates energy-consuming devices but also harnesses the energy generated by customers  when using cardio equipment thanks to built-in generators, which is regularly rewarded with incentives.
+                        Additionally, the roof is covered with photovoltaic panels, 
+                        generating even more electricity to power the facility and offset cooling needs.
+                        </p>
+                    </div>
+        
+                    <div class="usp-aspect">    
+                        <img src="/img/Icons Portfolio/cleaner.png" alt="sanitation">
+                        <h4> Eco-friendly Sanitation</h4>
+                        <p>
+                            Greenergym promotes green hygiene practices by using recycled toilet paper, paper towels, and biodegradable 
+                            trash bags. Their cleaning and disinfecting products are derived from plant-based substances and meet high-quality and cleanliness standards.
+                        </p>
+                    </div>
+
+                    <div class="usp-aspect">
+                        <img src="/img/Icons Portfolio/vegetables.png" alt="vegetable-basket">
+                        <h4> Farm-to-Table Approach </h4>
+                        <p> 
+                            Greenergym incorporates an outdoor area for growing fresh vegetables and fruits, 
+                            which are then used in their healthy and delicious GreenerFoods dishes. They prioritize organic and locally sourced ingredients, 
+                            providing vegan, vegetarian, and gluten-free alternatives.</p>
+                    </div>
+
+                    <div class="usp-aspect">
+                        <img src="/img/Icons Portfolio/t-shirt.png" alt="eco-shirt">
+                        <h4> Sustainable Apparel </h4>
+                        <p> 
+                            Greenergym offers GreenerWear sports clothing made from not only recyclable but also recycled and fair-trade materials, 
+                            such as organic cotton and polyester fibers derived from PET bottles, because clothes also play an important part in the fitness experience.
+                        </p>
+                    </div>
+
+                    <div class="usp-aspect">
+                        <img src="/img/Icons Portfolio/development.png" alt="development">
+                        <h4> Continous Improvement</h4>
+                        <p> 
+                            While recognizing their imperfections, Greenergym takes its environmental responsibility seriously. 
+                        They strive to continually improve their sustainability practices, aim to become completely self-sufficient in energy, achieve carbon neutrality, 
+                        and eventually grow their own GreenerFoods ingredients.
+                        </p>
+                    </div>
+               </div>
+
+                </div>
+                
+
+
+               <!--
+                <ul class="grid usp">
+                    <li class="card">
+                        <img src="./img/Icons Portfolio/kettlebell.png" alt="kettlebell">
+                        <h3> Sustainable Equipment</h3>
+                        Greenergym ensures that all training equipment is made from sustainable and recyclable materials, 
+                        avoiding plastics and harmful substances. They primarily use stainless steel, iron, and solid wood instead of plastic, 
+                        making the equipment more durable and less prone to wear and tear.
+                    </li>
+                    <li class="card">
+                        <img src="./img/Icons Portfolio/light-bulb.png" alt="lightbulb">
+                        <h3> Green & Renewable Energy</h3>
+                        Greenergym not only eliminates energy-consuming devices but also harnesses the energy generated by customers  when using cardio equipment thanks to built-in generators, which is regularly rewarded with incentives.
+                        Additionally, the roof is covered with photovoltaic panels, 
+                        generating even more electricity to power the facility and offset cooling needs.
+                    </li>
+                    <li class="card"> 
+                        <img src="./img/Icons Portfolio/cleaner.png" alt="sanitation">
+                        <h3> Eco-friendly Sanitation</h3>
+                        Greenergym promotes green hygiene practices by using recycled toilet paper, paper towels, and biodegradable 
+                        trash bags. Their cleaning and disinfecting products are derived from plant-based substances and meet high-quality and cleanliness standards.
+                    </li>
+                    <li class="card">
+                        <img src="./img/Icons Portfolio/vegetables.png" alt="vegetables">
+                        <h3> Farm-to-Table Approach</h3> 
+                        Greenergym incorporates an outdoor area for growing fresh vegetables and fruits, 
+                        which are then used in their healthy and delicious GreenerFoods dishes. They prioritize organic and locally sourced ingredients, 
+                        providing vegan, vegetarian, and gluten-free alternatives.
+
+                    </li>
+                    <li class="card">
+                        <img src="./img/Icons Portfolio/t-shirt.png" alt="eco-friendly shirt">
+                        <h3>Sustainable Apparel</h3>
+                        <p>
+        
+                        Greenergym offers GreenerWear sports clothing made from not only recyclable but also recycled and fair-trade materials, 
+                        such as organic cotton and polyester fibers derived from PET bottles, because clothes also play an important part in the fitness experience.
+                        
+                    </p>
+                    </li>
+
+                    <li class="card">
+                        
+                        <img src="./img/Icons Portfolio/development.png" alt="improvement">
+                        <h3>Continuous Improvement </h3>
+                            While recognizing their imperfections, Greenergym takes its environmental responsibility seriously. 
+                        They strive to continually improve their sustainability practices, aim to become completely self-sufficient in energy, achieve carbon neutrality, 
+                        and eventually grow their own GreenerFoods ingredients.
+                    </li>
+                </ul>
+                -->
+            </section>
+           
+
+
+            <h3 class="sub-heading"> Values, Mission- & Vision Statement </h3>
+            <p> Auf Grundlage der Mark-Positionierung durch den wir einen USP herauskristallisieren konnten der entwickelten Customer Journey
+                Alles baut auf diese Unternehmensphilosophie auf
+                developed corporate story telling more
+            </p>
+            
+            <div class="grid-list">
+                <div class="project-card project-card-1">
+                    
+                    <img src="./img/mission.png" style="width: 50px;" alt=""> 
+                    <h3> Core values</h3>
+
+                    <div class="core-value">
+                        <h4>  Passion for Sports</h4>
+                        <p>
+                            We celebrate the joy, energy, and positive impact that sports bring to individuals and communities and 
+                            believe in the power of sports to uplift and unite people.
+                        </p>
+                    </div>
+
+                    <div class="core-value">
+                        <h4> Environmental Conciousness</h4>
+                        <p> We deeply care about the health of our planet and recognize the connection of the environment and sports. 
+                            We integrate sustainability into every aspect of our operations and inspire others to do the same. 
+                        </p>
+                    </div>
+                
+
+                    <div class="core-value">    
+                        <h4> Health and Well-being</h4>
+                        <p>We prioritize the well-being of individuals, understanding that personal health and the health of the planet are 
+                            intertwined. We strive to create a world where everyone has access to clean air, clean water, and a safe environment for physical activity.
+                        </p>
+                    </div>
+
+                    <div class="core-value">
+                        <h4> Innovation and Excellence </h4>
+                        <p> We constantly seek innovative solutions and strive for excellence in everything we do. 
+                            We aim to set new benchmarks in sustainable sports practices and inspire others through our actions.
+                            Most modern approach.</p>
+                    </div>
+               </div>
+                
+                <div class="project-card project-card-2">
+                    <div class="title-wrapper"> 
+                        <img src="./img/mission.png" style="width: 50px;" alt=""> 
+                        <h3> Vision</h3>
+                    </div>
+                    <p> To create a global movement where sports and environmental consciousness go hand in hand, where every individual can engage in physical activity while contributing to a cleaner and greener planet. We envision a world where sports facilities, equipment, and events are designed with sustainability in mind, setting a new standard for the sports industry.</p>
+                </div>
+                
+                <div class="project-card project-card-3">
+                    <div class="title-wrapper">  
+                        <img src="./img/mission.png" style="width: 50px;" alt=""> 
+                        <h3> Mission</h3>
+                    </div>
+                    <p> To unite the environment and sports, promoting a sustainable and healthy lifestyle while inspiring individuals, especially the younger generation, to prioritize environmental protection for their own well-being and that of future generations.</p>
+                </div>
+            </div>
+            
+            <!--<h3> Brand Story</h3>
+            <p> To create seamingless marketing and a coherent communication we created a brand story aligned with the core values to effectively convey our mission and vision to the user.
+                The goal was to create a more tangible (?) display? 
+                of our mission, vision and core values, visualizing it as an example. All marketing can orientieren daran.
+
+                allows for a deeper connection and engagement with customers, 
+                sets the brand apart from competitors, defines its identity and personality, 
+                builds trust and authenticity, fosters customer loyalty, and enhances brand recall. 
+                It creates a meaningful and enduring relationship between the brand and its customers, ultimately driving business success.
+            </p>
+            <img src="/untitled/img/brandstory.png" style="width: 1100px; border-radius: 10px;" alt="">-->
+
+            <h2 class="overlined"> Corporate Design Guidelines</h2>
+            
+            <h3 class="sub-heading"> Visitenkarte</h3>
+            <img src="./img/Visitenkarte_dev.png" alt="">
+
+            <h3 class="sub-heading"> Flyer</h3>
+            <img src="" alt="">
+
+
+           
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="section design">
+
+        <div class="container">
+            
+            <!--Design-Process-->
+            <ul class="process-grid">  
+                
+                <h2 class="overlined"> Website & App Design Process</h2>
+            
+            </ul>
+
+
+            <h3 class="sub-heading"> Definition of purpose</h3>
+            <p> Defining the exact purpose of both the website and the app was crucial before starting the website and app-design, 
+                because it gave us a potential functions.
+                
+            </p>
+            
+            
+            <ul class="grid">
+                <li class="card">
+                    <h3> Website</h3>
+                    <ul class="roles">
+                        <li> <b> Function:</b> The website primarily serves an informative function, providing users with an introduction to the company, its products, and services.</li>
+                        <li> <b> Purpose: </b> The website aims to familiarize users with the brand, educate them about the offerings, and guide them towards a conversion or specific action, such as signing up for a membership or visiting the physical fitness mall.</li>
+                        <li> 
+                            <b> Touchpoints:</b>
+                            The website acts as a touchpoint at the early stages of the customer journey, capturing users' attention, 
+                            generating interest, and providing the necessary information to make an informed decision.
+                        </li>  
+
+                    </ul>
+                   
+                </li>
+                
+
+                <li class="card">
+                    <h2> App</h2>
+                    <ul class="roles">
+                        <li> 
+                            <b>Function:</b> 
+                            The app focuses on providing interactive and personalized experiences to users who have already shown interest or become customers. 
+                        </li>
+                        <li> 
+                            <b> Purpose:</b> 
+                            The app aims to enhance user engagement, facilitate access to specific services or features, and enable ongoing interaction with the brand.
+                            It is meant to serve as a central hub for users, allowing them to track their energy generation through cardio machines,
+                            redeem rewards, explore workout plans, shop for eco-friendly products, and access restaurant menus. 
+                        </li>
+                        <li> 
+                            <b> Touchpoints:</b> 
+                            The app acts as a touchpoint at the stages of the customer journey where they already have a d, capturing users' attention, 
+                            generating interest, and providing the necessary information to make an informed decision.
+                        </li>
+
+                    </ul>
+
+                </li>
+            
+
+            </ul>
+            
+
+
+            
+            <h3 class="sub-heading"> Personas</h3>
+            <p> To vers</p>
+
+            <div class="slider">
+                <button id="prev-btn">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </button>
+                <div class="image-container">
+                    <div class="carousel">
+                        <img src="./img/persona_chris.png" alt="">                                                                                                                                                   
+                        <img src="./img/persona_chris.png" alt="">
+                    </div>
+                    <button id="next-btn">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </button>
+                </div>
+                
+            </div> 
+
+            
+            
+            
+            <h3> Information Architechture & Wireframing </h3>
+            <p> 
+                First, we determined the crucial screens and functionalities for the Mobile App based on User Flows. 
+                Next, we developed a detailed information architecture, followed by the creation of wireframes 
+                for the identified screens. 
+                The graphic below provides a summary of these steps, which serve as the foundation upon which we constructed the app's design.
+            
+            </p>
+            <!--<ul>
+                <li> User Registration/Login: Users can create a new account or log in using their email or social media credentials.</li>
+                <li> Tutorial: A brief tutorial introduces the app's features and benefits.</li>
+                <li> Home Screen: Serves as a dashboard, displaying progress towards energy generation goals, upcoming workouts, daily statistics, and featured restaurant dishes.</li>
+                <li> Workout Selection: Users can explore different workout types such as cardio, strength training, or flexibility.</li>
+                <li> Personalized Workout Plan: Users can access a personalized workout plan based on their goals and preferences.</li>
+                <li> Cardio Tracking: Users can track their cardio workouts by scanning QR codes on cardio machines to monitor energy generation, heart rate, and calorie consumption.</li>
+                <li> Online Shop: Users can browse and purchase GreenerWear or GreenerFoods products.</li>
+                <li> Restaurant Menu: Users can view daily restaurant menu offerings, including nutritional information, and place orders for pickup or delivery.</li>
+                <li> Profile Settings: Users can manage their account, update personal information, adjust preferences, and view overall progress and achievements.</li>
+                <li> Navigation: Users can easily navigate through different sections of the app using a menu bar at the bottom of the screen.</li>
+            </ul>-->
+
+            <img src="/img/info-architecture.png" style="width: 100%;" alt="">
+
+            <!--========== UI Design App============-->
+
+
+            <h2 class="overlined"> User Interface Design: Mobile App</h2>
+
+
+            <!-- Slider-->
+                
+
+                <!--Home Dashboard-->
+                <div class="screen-grid screen-1">
+                    <ul class="grid">
+                        <li class="screen-item"><img src="./img/greenergym_home.png"  alt=""> </li>   
+                        <li class="screen-item"> <img src="./img/home_dashboard_2.png" alt=""></li>    
+                    </ul>
+                    <div class="description"> 
+                        <h3>Home - Dashboard </h3>
+                        <p> Presents the user with important shortcuts to different sections of the app.
+                            It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                            Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                            and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Onlineshop-->
+                <div class="screen-grid screen-2" style="grid-template-columns: 0.3fr 1fr;">            
+                    <div class="description">
+                        <h3>Onlineshop</h3>
+                        <p> 
+                            The shop page serves as a redirective gateway page to the GreenerWear- and GreenerFoods-Store, which are separated for a more intuitive understanding and orientation.
+                            Once in the chosen Shop, users can chose between different categories, search for keywords, see their cart or wishlist and view more details on the product-screen.
+                        </p>
+                    </div>
+                    <ul class="grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                        <li class="screen-item"><img src="./img/app_greenershop.png"  alt=""> </li>   
+                        <li class="screen-item"> <img src="./img/app_greenerwear.png" alt=""></li> 
+                        <li class="screen-item"><img src="./img/app_productpage.png"  alt=""> </li>   
+                    </ul>
+                </div>
+
+
+                <!--Workoutplans-->
+                <div class="screen-grid screen-2" style="grid-template-columns: 1fr 0.3fr;">
+                    <ul class="grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                        <li class="screen-item"><img src="./img/app_workout-selection.png"  alt=""> </li>   
+                        <li class="screen-item"> <img src="./img/app_greenerwear.png" alt=""></li> 
+                        <li class="screen-item"><img src="./img/app_productpage.png"  alt=""> </li>   
+                    </ul>
+                    <div class="description"> 
+                        <h3> Workouts & Plans</h3>
+                        <p>
+                            The user can access a variety of workouts that can be added to their personal training plan or started immediately. Each workout is represented by an image, title, description, and key details. The top part of the screen allows users to filter workouts based on different training types. 
+                        </p>
+
+                    </div>
+                </div>
+
+                <!--Cardio-Tracking-->
+                <div class="screen-grid screen-3">
+                    
+                    <div class="description">
+                        
+                        <h3> Cardio Tracking</h3>
+                        <p>
+                            The cardio tracking feature allows users to connect to a cardio machine in the gym and see live measurements of various parameters, which are later saved into the statistics section in their profile.
+                            After scanning the QR-code on the respective machine, the app starts tracking the cardio workout.
+                            If the user clicks on the Pause-button, any menu item or the arrow back, the app  will direct the user to a different screen after confirmation to proceed. i
+                            In this case the tracking will be stopped.
+                            The feature is accessed by pressing the green "+" Button in the menu or selecting "Cardio" in the workout selection. 
+                            
+                        </p>
+
+                    </div>
+                    <ul class="grid">
+                        <li class="screen-item"><img src="./img/app_cardiotracking-start.png"  alt="Cardiotracking Start"> </li>   
+                        <li class="screen-item"> <img src="./img/app_cardiotracking.png" alt="Live Cardiotracking "></li>    
+                    </ul>
+
+                </div>
+
+            
+            <!--========== UI Design Website============-->
+
+            
+            <h2 class="overlined"> User Interface Design: Website</h2>
+            
+
+            <!--Home-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 1fr 0.4fr; gap: 10px;">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/website_home_collage2.png" alt="Laptop Mockup">
+                </div>
+
+                <div class="description">
+                    
+                    <h3> Home - Landingpage </h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+
+                </div>
+
+            </div>
+
+            <!--GreenerGym-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 0.5fr 1fr; gap: 10px;">
+                <div class="description">
+                    <h3>GreenerGym</h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+                </div>
+
+                <div class="laptop-mockup">
+                    <img src="./img/website_gym_collage.png" alt="Laptop Mockup">
+                </div>
+
+            </div>
+
+            <!--GreenerFoods-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 1fr 0.4fr; gap: 10px;">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/website_foods_collage.png" alt="Laptop Mockup">
+                </div>
+
+                <div class="description">
+                    
+                    <h3>GreenerFoods</h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+
+                </div>
+
+            </div>
+
+            
+            <!--GreenerWear-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 0.5fr 1fr; gap: 10px;">
+                <div class="description">
+                    <h3>GreenerWear</h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+                </div>
+
+                <div class="laptop-mockup">
+                    <img src="./img/website_wear_collage.png" alt="Laptop Mockup">
+                </div>
+
+            </div>
+
+            
+            <!--Restaurant-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 1fr 0.4fr; gap: 10px;">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/website_restaurant_collage.png" alt="Laptop Mockup">
+                </div>
+
+                <div class="description">
+                    
+                    <h3>GreenerFoods - Restaurant </h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+
+                </div>
+
+            </div>
+            
+            <!--Über uns-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 0.5fr 1fr; gap: 10px;">
+                <div class="description">
+                    <h3>About </h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+                </div>
+
+                <div class="laptop-mockup">
+                    <img src="./img/website_about_collage.png" alt="Laptop Mockup">
+                </div>
+
+            </div>
+
+            <!--Kontakt-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 1fr 0.4fr; gap: 10px;">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/website_contact_collage.png" alt="Laptop Mockup">
+                </div>
+
+                <div class="description">
+                    
+                    <h3>Kontakt </h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <section class="conclusion">
+        <div class="container">
+
+            <h2 class="overlined"> Reflection</h2>
+            <p> We came up with not only a brand but a full Corporate Identity. Considering the big project scope, we are very content with our work.
+                
+            </p>
+            <p style="padding-block: 8px;">
+                Considering the seperate parts of the project, like business concept, Branding and Corporate Design, in depth-research and additional improvement 
+                would be necessary, if we would have actually launched our brand, the print-and the digital media.
+            </p>
+                
+            <!--<div class="grid">
+                
+                <ul class="card">
+                    <h3> Positive Aspects</h3>
+                    <li> The cororate Design and the business niche</li>
+                    <li> </li>
+                </ul>
+
+                <ul class="card">
+                    <h3> Areas of Improvement</h3>
+                    <li>Business-Concept: We could have </li>
+                    <li></li>
+                </ul>
+
+            </div>-->
+        </div>
+
+        
+
+        
+
+    </section>
+
+        <!-- ================ Javascript-File========================-->
+        <script src="./script.js"></script>
+
+        <!-- =============== Ionicon link-Einbindung =============== https://ionic.io/ionicons/usage//-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+    
+</body>
+</html>

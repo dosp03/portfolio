@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dorothee Sperker - Digital Media Marketing Student</title>
+    <meta name="title" content="Dorothee Sperker - Digital Marketing Student">
+    <meta name="description" content="Personal Portfolio of a digital media marketing student displaying her skills in devoloping creative and user-friendly concepts for websites, apps and other media.">
+
+    <!-- wenn Favicon als svg abgespeichert: <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">-->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+ 
+    <!--Google Font => kann alternativ auch über css eingebunden werden (wie bei übung)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap">
+
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- Bilder laden => werden vom Browser vorgeladen und nicht erst, wenn sie in Website gebraucht werden-->
+    <link rel="preload" as="image" href="./img/Wireframes Übersicht.png">
+    <!-- 
+        
+        noch weitere Bilder hier einfügen, bei denen Ladezeit schlecht für experience wäre
+    
+    //-->
+
+    <!-- Google Analytics Einbindung (noch Tagnummer undso einblenden)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-XXXXXXXXX-X');
+    </script>-->
+</head>
+<body>
+    <button id="scroll-top-btn">
+        <ion-icon class="upIcon" name="arrow-up-outline"></ion-icon>
+    </button>
+
+    <!-------------
+        Navbar 
+    --------------->
+    <nav data-nav>
+        <div class="content">
+            <div class="logo"> 
+                <a href="#"> <img src="./img/logo.png"></a>
+            </div>
+
+            <!-- Inhalt außer Logo-->
+            <div class="inner-content">
+
+                <!--Menu-Items-->
+                <ul class="menu-list">
+                    <!--vor Menu-Items (nur bei geöffneter Navbar)-->
+                    <div class="navbar-top"> 
+                        <div class="logo">
+                            <a href="#"> <img src="/img/logo.png"></a>
+                        </div>
+                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+                    <li> <a href="index.html" class="nav-link"> Home </a></li>
+                    <li> <!--<a href="" class="nav-link"> Projects </a>-->
+                        <a href="./projects.html" class="nav-link project-btn">
+                            <span> Projekte </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+                    <li> <a href="#" class="nav-link"> About </a></li>
+                    
+                    <li> <a href="#" class="nav-link"> Skills </a></li>
+                    <li> <a href="#" class="nav-link"> Contact </a></li>
+                </ul>
+    
+                <!--Social-Media & Language-->
+                <div class="right-content">
+                    <!--<div class="social-icons">
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+                    </div>-->
+                    <button id="language-toggle">DE</button>
+                </div>
+
+            </div>
+
+        <div class="overlay"> </div>
+            
+            <!--Hamburger-Menu-Icon (bei kleineren screens)-->
+            <div class="hamburger-menu">
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </div>
+        </div>
+
+    </nav>
+
+    
+    <!-------------
+        HERO
+    --------------->
+    <section class="section hero kaya">
+        <div class="container">
+             <div class="hero content">
+                 <h1>Kaya.</h1>
+                 <h2> Setting unmatched standards for luxury vacation.</h2> 
+                 <p class="section-text"> 
+                    Kaya is an award-winning 5-star luxury hotel on Santorini, that places the utmost emphasis on the relaxation of mind, body and soul of it
+                    s visitors. It`s concept is to convey pure wellness and luxury through every aspect of their brand, from to including various services amidst the breathtaking landscapes of Greece.
+                 </p>
+             </div>
+             <div class="hero-image">
+                 <img src="./img/Kaya_mockup.png" style="width: 100%; height: 100%;"alt="">
+             </div>
+         </div>
+     </section>   
+
+     <!------------
+        Project Description
+    ---------->
+    <section class="introduction kaya">
+        <div class="container project-goals">
+             
+            <h2 class="overlined"> Project Scope</h2>
+            <p> As the final submission for the 'Screen Design' module of my studies, we were tasked to conceptualize and design a 
+                digital brand identity and subsequently create a responsive website for a hotel of our choice in teams of two. 
+            </p>
+
+            <p> My </p>
+
+            <!-- deutsch: Die Aufgabe, die unsere dreiköpfiges Team-->
+
+            <div class="goal-grid">
+                <div class="goal-1">
+                    <h2> 01</h2>
+                    <h3> Digital Brand Design</h3>
+                    <p> included Moodboards and Scribbles, Konzept
+
+                    </p>
+                </div>
+
+                <div class="goal-2">
+                    <h2> 02</h2>
+                    <h3>Wireframing</h3>
+                    <p> based on Scribbles, => Informationsarchitektur
+                        
+                    </p>
+                </div>
+
+                <div class="goal-3">
+                    <h2 > 03 </h2>
+                    <h3> UI-Design and Prototyping </h3>
+                    <p> 
+                        Styleguide => UI-Design (included content creation)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 
+        Wireframing
+    -->
+
+    <section class="branddesign">
+        <div class="container">
+            <h2 class="overlined"> Developing of a Brand Design</h2>
+            <img src="/img/Moodboard_Hotel.png" alt="">
+
+        </div>
+    </section>
+
+    <!-----------------
+        UI-Design Web
+    ------------------->
+    <section class="design">
+        <div class="container">
+            <!--========== UI Design Website============-->
+
+
+            <h2 class="overlined"> User Interface Design: Website</h2>
+
+
+            <!--Home-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 1fr 0.4fr; gap: 10px;">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/Home_kaya.png" alt="kaya landingpage">
+                </div>
+
+                <div class="description">
+                    <h3> Home - Landingpage </h3>
+                    <p> Das Design der Homepage soll beim Nutzer in wenigen Momenten das Lebensgefühl, die Werte von "Kaya" vermitteln. 
+                        Durch eine Gallerie.
+                        
+                        The Homepage is designed to invoke the general lifestyle aDisplays information and pictures that are convey the general idea that Kaya wants to convey, inculding a gallery
+                        to, to give them a visual. Plays through thevisual part. Wellness.
+                </div>
+
+            </div>
+
+            <!--Wellness-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 0.5fr 1fr; gap: 10px; padding-block-end: 0;">
+                <div class="description">
+                    <h3>Wellness offers</h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+                </div>
+
+                <div class="laptop-mockup">
+                    <img src="./img/wellness_kaya.png" alt="Laptop Mockup">
+                </div>
+
+            </div>
+
+            <!--Restaurant-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 1fr 0.4fr; gap: 10px;">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/services_kaya.png" alt="Laptop Mockup">
+                </div>
+
+                <div class="description">
+                    
+                    <h3>Additional Services</h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+
+                </div>
+
+            </div>
+
+            
+            <!--About-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 0.5fr 1fr; gap: 10px;">
+                <div class="description">
+                    <h3>About</h3>
+                    <p> To </p>
+                </div>
+
+                <div class="laptop-mockup">
+                    <img src="./img/website_wear_collage.png" alt="Laptop Mockup">
+                </div>
+
+            </div>
+
+            
+            <!--Booking-->
+            <div class="screen-grid screen-1" style="grid-template-columns: 1fr 0.4fr; gap: 10px;">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/website_restaurant_collage.png" alt="Laptop Mockup">
+                </div>
+
+                <div class="description">
+                    
+                    <h3>Booking </h3>
+                    <p> Presents the user with important general information about the concept of Greenergym.
+                        It includes a circular diagram representing the amount of electricity generated toward the next reward. 
+                        Below the diagram, important events and information are displayed, such as scheduled workouts, daily statistics, 
+                        and daily restaurant offerings. These elements serve as shortcuts to different sections of the app.</p>
+
+                </div>
+
+            </div>
+       
+
+        </div>
+
+    </section>
+                
+
+
+    
+    <!-- ================ Javascript-File========================-->
+    <script src="./script.js"></script>
+
+    <!-- =============== Ionicon link-Einbindung =============== https://ionic.io/ionicons/usage//-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+
+</body>
+
+
+</html>
