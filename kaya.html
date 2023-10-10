@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dorothee Sperker - Digital Media Marketing Student</title>
+    <meta name="title" content="Dorothee Sperker - Digital Marketing Student">
+    <meta name="description" content="Personal Portfolio of a digital media marketing student displaying her skills in devoloping creative and user-friendly concepts for websites, apps and other media.">
+
+    <!-- Favicon (wenn Favicon als svg abgespeichert: <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml")>-->
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/png">
+ 
+    <!--Google Font => kann alternativ auch über css eingebunden werden (wie bei übung)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap">
+
+    
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+
+</head>
+<body class="kayapage">
+    <button id="scroll-top-btn">
+        <ion-icon class="upIcon" name="arrow-up-outline"></ion-icon>
+    </button>
+
+ <!-------------
+        Navbar 
+    --------------->
+    <nav data-nav>
+
+    </div>
+    <div class="content container">
+        <div class="logo"> 
+            <a href="index.html"> <img src="./img/logo.png"></a>
+        </div>
+
+        <!-- Inhalt außer Logo-->
+        <div class="inner-content">
+
+            <!--Menu-Items-->
+            <ul class="menu-list">
+                <!--vor Menu-Items (nur bei geöffneter Navbar)-->
+                <div class="navbar-top"> 
+                    <div class="logo">
+                        <a href="index.html#home"> <img src="./img/logo.png"></a>
+                    </div>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <li> <a data-active="home" href="index.html#home" class="nav-link"> Home </a></li>
+                <li> <a  href="index.html#projects" class="nav-link"> Projects </a>
+                    <!--<a data-active="projects" href="projects.html" class="nav-link project-btn">
+                        <span> Projekte </span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>-->
+                </li>
+                <li> <a data-active="about" href="index.html#about" class="nav-link"> About </a></li>
+                
+                <li> <a data-active="skills" href="index.html#skills" class="nav-link"> Skills </a></li>
+                <li> <a data-active="contact" href="index.html#contact" class="nav-link"> Contact </a></li>
+            </ul>
+
+            <!--Social-Media & Language-->
+            <div class="right-content">
+                <a href="kaya_de.html" id="language-toggle">DE</a>
+            </div>
+
+        </div>
+
+        <div class="overlay"> </div>
+        
+        <!--Hamburger-Menu-Icon (bei kleineren screens)-->
+        <div class="hamburger-menu">
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </div>
+    </div>
+
+    </nav>
+
+
+    <main>
+        <article>
+            <!-------------
+                HERO
+            --------------->
+            <section class="section hero kaya">
+                <div class="container">
+                    <div class="hero content">
+                        <h1>Kaya.</h1>
+                        <h2> Luxury for the soul.<!--Setting unmatched standards for luxury vacation.--></h2> 
+                        <p class="section-text"> 
+                            Kaya is an award-winning 5-star luxury hotel on Santorini, that places the utmost emphasis on the relaxation of mind, 
+                            body and soul of its visitors. It's concept is to convey pure wellness and luxury through every aspect of their brand, 
+                            from the visuals and architecture to the various services they offer 
+                            visitors - everything amidst the breathtaking landscapes of Greece.
+                        </p>
+                    </div>
+                    <div class="hero-image project">
+                        <img src="./img/Kaya_mockup.png">
+                    </div>
+                </div>
+            </section>   
+
+            <!-------------------
+                Project Scope
+            ---------------------->
+            <section class="introduction kaya">
+                <div class="container project-goals">
+                    
+                    <h2 class="overlined"> Project Scope</h2>
+                    <p class="absatz"> 
+                        In the context of my studies, Kaya was our final submission for the 'Screen Design' module, which was carried out in teams of two. 
+                        Our task was to create a digital brand identity and a responsive website for a self-developed hotel concept, 
+                        taking into consideration our identified target audience.
+                    </p>
+
+                    <h4 class="role"> Roles</h4>
+                    <p class="absatz">
+                        Collaboratively, my partner and I developed the initial concept, scribbles, and information architecture of the website. 
+                        While my partner refined high-fidelity wireframes, I led the design decisions for the digital brand identity and final UI design. 
+                        We completed the prototyping phase together, with me handling the desktop version and my partner focusing on the mobile aspect.
+                    </p>
+
+                    <!-- deutsch: Die Aufgabe, die unsere dreiköpfiges Team-->
+
+                    <div class="goal-grid">
+                        <div class="goal-1">
+                            <h3 class="number"> 01</h3>
+                            <h3> Digital Brand Design</h3>
+                            <p> 
+
+                                As the initial step of our project, the development of the digital brand design for 'Kaya' involved 
+                                creating a Moodboard to visualize the hotel's essence, appearance, and overall emotional tone. 
+                                Alongside this, we developed a style guide in alignment with the Moodboard's tone, outlining consistent 
+                                design elements.
+
+                            </p>
+                        </div>
+
+                        <div class="goal-2">
+                            <h3 class="number"> 02</h3>
+                            <h3>Website Structure</h3>
+                            <p> 
+                                Next, we developed high-fidelity wireframes based on preliminary sketches to establish the website's 
+                                structure and translate the original design concepts into a functional layout. 
+                                A strong focus on Information Architecture ensured a user-friendly structure and smooth navigation. 
+                                
+                            </p>
+                        </div>
+
+                        <div class="goal-3">
+                            <h3 class="number"> 03</h3>
+                            <h3> UI-Design and Prototyping </h3>
+                            <p>
+                                In the project's final phase, we combined the visual design elements outlined in the style guide with the wireframes
+                                in order to create a captivating responsive Interface Design.
+                                This design came to life through a high-fidelity prototype, providing an interactive preview of 
+                                the website's functionality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-----------------------
+                Moodboard/Branddesign
+            ------------------------->
+            <section class="section branddesign">
+                <div class="container">
+
+                    <h2 class="overlined"> Developing the Brand Identity</h2>
+                    
+                    <!--Moodboard-->
+                    <div class="subsection">
+                        <h3> Visual Narrative - Moodboard</h3>
+                        <p>
+                            One of the initial steps in creating the website for our hotel involved designing a moodboard – a collection of colors, images, typography, 
+                            and selected design components. This was done to convey the overall aesthetics, atmosphere, and emotional feel of the hotel-brand. -
+                            It visualizes wellness, luxury, and the minimalist elegance that defines Kaya.
+                            The moodboard served as both an inspiration for the website's design and a foundation for defining our target audience clearly, 
+                            as it already included the audience description. It also served as a consistent visual guide in addressing our target audience.
+
+                            <!--Einer der ersten Schritte bei der Erstellung der Website für unser Hotel bestand darin, ein Moodboard to erstellen, eine Sammlung aus Farben, Bildern, Typographie, und bereits einzelnen Designelementen, um die generelle Ästhetik, Atmosphäre und emotionale Stimmung des Hotels zu kommunizieren. 
+                             - Es visualisiert Wellness, den Luxus und die minimalistische Eleganz, die Kaya ausmacht.
+                            Das Moodboard diente uns sowohl als Inspirationsquelle für das Websitendesign als auch als Fundament für eine klare Zielgruppendefinition,
+                            da es die Zielgruppe bereits mit einschließt. Es hat für uns ebenfalls als konstante visuelle Orientierungshilfe an der Zielgruppe fungiert.-->‚
+                        </p>
+                        <img src="/img/Moodboard_Hotel.png" alt="Moodboard Kaya">
+                    </div>
+                    <!--Styleguide-->
+                    <div class="subsection styleguide">
+                        <h3> Corporate Design Guidelines - Styleguide</h3>
+                        <p>
+                            We developed the guidelines for Digital Brand Design in the form of a style guide, aligning them with the 
+                            target audience to ensure a consistent visual identity. The described design elements have been carefully chosen 
+                            to collectively reflect Kaya's intended image, atmosphere, and values. This includes the logo we designed, 
+                            the color scheme, as well as specifications for using primary and accent colors, various button styles, and typography.
+                            
+                            <!--Die Guidelines für das Digital Brand Design wurden von uns in Form eines Styleguides 
+                            im Einklang mit der Zielgruppe erstellt, um ein
+                            konsistentes Erscheinungsbild sicherzustellen. Die beschriebenen
+                            Designelemente sind so gewählt, dass sie in ihrem Zusammenspiel das beabsichtigte Image, die Atmosphäre und die Werte von Kaya wiederspiegeln.
+                             Er beinhaltet das von uns entworfene Logo, das Farbschema sowie die
+                            Spezifikationen zum Gebrauch von Primär- und Akzentfarben, verschiedenen Arten von Buttons und der Typographie.-->
+                        </p>
+                        <img src="/img/Styleguide.png" alt="">
+
+
+                    </div>
+                </div>
+            </section>
+
+            <!----------------
+                Wireframing
+            ------------------>
+            <section class="section wireframing">
+                <div class="container">
+                    <h2 class="overlined"> Wireframing & Information Architecture</h2>
+                    <p> 
+                        In order to develop a detailed Information architecture of the Website, we first created rough sketches with minimal detail to identify
+                        the required pages and the necessary and the essential connections between them.
+                        With this approach, we only needed to further refine the initial sketches.
+                        By following this approach, we only needed to fine-tune the initial sketches into high-fidelity wireframes, to 
+                        come up with a detailed information architecture of our website.
+                        The result served as the basis for our final website design and is shown in the graphic below.
+                    </p>
+                    <img src="img/infoarchitecture_kaya.png">
+                </div>
+            </section>
+            <!-----------------
+                UI-Design
+            ------------------->
+            
+            <section class="section design">
+                <div class="container">
+                    
+
+                    <h2 class="overlined"> Responsive User Interface Design</h2>
+                    <p> 
+                        This section presents the mockups of the final User Interface Design along with accompanying explanations for each 
+                        of the website's subpages, both for the desktop and mobile versions. 
+                        The only difference lies in the arrangement and visual representation of the content.
+                        
+                        <!--Diese Section beinhaltet die Mockups des finalen User Interface Designs und dazugehörige Erklärungen für die einzelnen Unterseiten der Website 
+                        sowohl für die Desktop- als auch für die mobile Version,
+                        da lediglich die  Anordnung der Inhalte variiert. Zum klickbaren Prototypen für <a href="https://xd.adobe.com/view/401d531d-9c59-4572-8afe-2d303e3fbaa5-154e/">Mobil</a>
+                        oder <a href="https://xd.adobe.com/view/6d024de7-8cce-4bf8-b801-4da9356d41d7-3851/">Desktop</a>-->
+                    </p>
+
+                    <!--Home-->
+                    <div class="screen-grid screen-1 home-kaya">
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" >
+                                <div class=" slide swiper-slide">
+                                    <img src="img/Home_kaya.png" class="image">
+                               </div>
+                               <div class="slide swiper-slide">
+                                    <ul class="grid" style=" width: 80%; margin-inline-end: 2%;">
+                                        <li class="screen-item"><img src="./img/home_kaya_mobil.png"  alt="home mobile"> </li>   
+                                        <li class="screen-item"> <img src="./img/home2_kaya_mobil.png" alt="hotel gallery"></li>    
+                                    </ul>
+                               </div>
+                            </div>
+                            <div class="swiper-button-next swiperBtn"></div>
+                            <div class="swiper-button-prev swiperBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                        <div class="description">
+                            <h3> Home - Landingpage </h3>
+                            <p> 
+                                The homepage primarily serves the purpose of branding and acts as a user-friendly entry point
+                                with all important information.
+                                Notably, the most important call to action, the booking function, 
+                                is prominently placed in the header and is accessible at all times through a Call-to-Action Button in the scrolled 
+                                navigation menu as well.
+                                Further down, the user will encounter a gallery of images, general details about the hotel, 
+                                Kaya's core values, reviews and links to the suites in the form of images that display essential suite-specific information on hover.
+                        </div>
+
+                    </div>
+
+                    <!--Wellness-->
+                    <div class="screen-grid screen-1 reverse wellness-kaya">
+                        <div class="description">
+                            <h3>Wellness offers</h3>
+                            <p> 
+                                <!--Alle Wellnessangebote (Fitnessstudio, Sauna, Spa und Massagen) sind auf der Wellness-Page zu finden.
+                                Für eine bessere Übersichtlichkeit & Struktur werden die einzelnen Wellnessbereiche über eine
+                                seiteninterne sub-navigation erreicht, innerhalb der der Titel durch deskriptive Icons ergänzt wird. 
+                                Zu Konsistenzzwecken sind alle Subpages gleich aufgebaut: Eingeleitet durch eine Bildergallerie mit Beschreibung des 
+                                Bereichs, gefolgt von spezifischen Informationen, in der Desktopversion je nach Informationsart stets im überlappenden Kartendesign oder 
+                                in Form eines 3er-Grids.-->
+
+                                All wellness offerings (fitness center, sauna, spa, and massages) can be found on the Wellness page.
+                                To enhance clarity, organization, each wellness area is accessible through an internal sub-navigation, 
+                                where titles are complemented by descriptive icons. The subpages follow the same structure for the sake of consistency: Commencing with an image gallery accompanied by a description 
+                                of the area, followed by specific information, presented in either an overlapping card design or a 1x3 grid layout in the desktop version, 
+                                depending on the type of information being conveyed.
+                                
+                            </p>
+                        </div>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" >
+                                <div class=" slide swiper-slide">
+                                    <img src="img/wellness_kaya.png" style="margin: 0 47px 0 0; padding: 5px 0 10px 0;" class="image">
+                               </div>
+                                <ul class="grid slide swiper-slide" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                                    <li class="screen-item"><img src="/img/wellness1_kaya_mobil.png"  alt="wellness - gym"> </li>   
+                                    <li class="screen-item"> <img src="/img/wellness2_kaya_mobil.png" alt="gym equipment"></li> 
+                                    <li class="screen-item"><img src="/img/wellness3_kaya_mobil.png"  alt="gym courses"> </li>   
+                                </ul>
+                            </div>
+                            <div class="swiper-button-next swiperBtn"></div>
+                            <div class="swiper-button-prev swiperBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+
+                    <!--Services-->
+                    <div class="screen-grid screen-1 services-kaya">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" >
+                                <div class=" slide swiper-slide">
+                                    <img src="img/services_kaya.png" alt="" class="image">
+                               </div>
+                                <ul class="grid slide swiper-slide" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                                    <li class="screen-item"><img src="/img/services1_kaya_mobil.png"  alt="wellness - gym"> </li>   
+                                    <li class="screen-item"> <img src="/img/services2_kaya_mobil.png" alt="gym equipment"></li> 
+                                    <li class="screen-item"><img src="/img/services3_kaya_mobil.png"  alt="gym courses"> </li>   
+                                </ul>
+                            </div>
+                            <div class="swiper-button-next swiperBtn"></div>
+                            <div class="swiper-button-prev swiperBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="description">
+                            <h3>Additional Services</h3>
+                            <p> 
+                                Since Kaya offers not only wellness services but also a restaurant, professional photoshoots, weddings, and sightseeing tours, 
+                                these additional services are logically integrated into separate subpages distinct from the wellness offerings, while adhering to the same structural layout. 
+                                These can be accessed through the "Services" menu item.
+                                Here, too, information is presented in the form of a 1x3 grid" or overlapping cards, contributing to a cohesive design, 
+                                especially within the subpages of the wellness- and additional offerings.
+                                <!--Da Kaya nicht nur Wellness, sondern auch ein Restaurant, professionelle Fotoshootings, Hochzeiten
+                                und Sightseeing-Tours anbietet, sind diese zusätzlichen Services logisch in von den Wellnessangeboten separierte Subpages integriert, 
+                                die über den Menüpunkt "Services" erreichbar sind,
+                                aber demselben Aufbau folgen. 
+                                Auch hier werden die Informationen in Form des 3er-Grids oder überlappenden Karten dargestellt, wodurch das kohärente Design 
+                                besonders innerhalb der Angebots-Unterseiten entsteht.-->
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+                    <!--About-->
+                    <div class="screen-grid screen-1 screen-1 reverse about-kaya">
+                        <div class="description">
+                            <h3>About</h3>
+                            <p> 
+                                The About page provides users with insights into the overall experience, Kaya's values, and the company's policies. 
+                                From a user perspective, it serves purely informational purposes, while from a company standpoint, it fulfills the objective of
+                                 establishing a consistent brand image. 
+                                This page is entirely dedicated to conveying the hotel's ambiance, capturing its essence and atmosphere, thus enabling a consistent storytelling 
+                                approach. The text is complemented by imagery in the same minimalist, elegant style, which convey the narrative embodied by the company.
+
+                                <!--Die About seite bietet Nutzern Einblicke in das Gesamterlebnis, Kayas Werte und die Unternmehmenspolitik.  
+                                    Aus der Perspektive des Nutzers hat sie so lediglich informative Zwecke, während aus Unternehmenssicht das Ziel besteht, 
+                                    ein konsistentes Markenbild zu etablieren.
+                                    Die Seite widmet sich vollständig dem Vermitteln der Stimmung des Hotels und fasst dessen Essenz und Atmosphäre für ein konsistentes Storytelling in Worte. Der Text ist durch Bilder im selben minimalistischem, eleganten Stil
+                                    ergänzt, wodurch auch das Design das von Kaya verkörperte Narrativ vermittelt.-->
+                                
+                            </p>
+                        </div>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" >
+                                <div class=" slide swiper-slide">
+                                    <img src="img/about_kaya.png" style="margin: 0 59px 0 0;" class="image">
+                               </div>
+                                <ul class="grid slide swiper-slide" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                                    <li class="screen-item"><img src="/img/about1_kaya_mobil.png"  alt="wellness - gym"> </li>   
+                                    <li class="screen-item"> <img src="/img/about2_kaya_mobil.png" alt="gym equipment"></li> 
+                                    <li class="screen-item"><img src="/img/about3_kaya_mobil.png"  alt="gym courses"> </li>   
+                                </ul>
+                            </div>
+                            <div class="swiper-button-next swiperBtn"></div>
+                            <div class="swiper-button-prev swiperBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+
+                    <!--Suite-->
+                    <div class="screen-grid screen-1 suites-kaya">
+                                 
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" >
+                                <div class=" slide swiper-slide">
+                                    <img src="img/suite_kaya.png" style="margin: 0 0 0 13px;" class="image">
+                               </div>
+                                <ul class="grid slide swiper-slide" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                                    <li class="screen-item"><img src="/img/suite1_kaya_mobil.png"  alt="wellness - gym"> </li>   
+                                    <li class="screen-item"> <img src="/img/suite2_kaya_mobil.png" alt="gym equipment"></li> 
+                                    <li class="screen-item"><img src="/img/suite3_kaya_mobil.png"  alt="gym courses"> </li>   
+                                </ul>
+                            </div>
+                            <div class="swiper-button-next swiperBtn"></div>
+                            <div class="swiper-button-prev swiperBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="description">
+                            
+                            <h3>Suites</h3>
+                            <p> 
+                                The individual suites can be accessed through the clickable images within the Suite section of the homepage. 
+                                For the sake of consistency, all these subpages follow an identical structure:
+                                Initially, an image gallery is displayed, featuring essential information in the description, identical to the details
+                                visible when hovering over the suite image on the homepage. Following this, the user will find a more detailed
+                                description and a booking widget that allows direct booking of the respective suite if it's available. 
+                                An image-carousel of the other suites marks the end of each subpage.
+
+                                <!--Die jeweiligen Suites werden über die Bildlinks in der Suite-section der Homepage erreicht.
+                                Die Subpages für jede Suite sind exakt gleich aufgebaut für consistency zwecke:
+                                Initial wird eine Bildergallerie mit den essentiellen Informationen in der Beschreibung gezeigt, die auch auf der Homepage on Hover über 
+                                das Bild der Suite gezeigt werden. Es folgt eine detaillierte Beschreibung und ein Buchungswidget, über das direkt die jeweilige Suite gebucht
+                                werden kann, falls verfügbar, sowie Bildlinks zu den restlichen Suiten.-->
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!--Booking-->
+                    <div class="screen-grid screen-1 reverse booking-kaya">
+                        <div class="description">
+                            <h3>Booking</h3>
+                            <p> The booking process is initiated by the user through the booking widget in the homepage header or, 
+                                alternatively, by visiting the page of a specific suite. 
+                                This process includes selecting a suite (already made when booking through a specific suite's page), 
+                                optionally adding services, completing a data form, reviewing the details, and proceeding to the payment stage.
+
+                                The standard menu is replaced by a progress menu where the current step is highlighted, as this constitutes a distinct, 
+                                self-contained dialogue separate from the rest of the website.
+                            </p>
+                        </div>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" >
+                                <div class=" slide swiper-slide">
+                                    <img src="img/booking_kaya.png" alt="" class="image" style="padding: 40px 0 0 0px">
+                               </div>
+                                <ul class="grid slide swiper-slide" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                                    <li class="screen-item"><img src="/img/booking1_kaya_mobil.png"  alt="wellness - gym"> </li>   
+                                    <li class="screen-item"> <img src="/img/booking2_kaya_mobil.png" alt="gym equipment"></li> 
+                                    <li class="screen-item"><img src="/img/booking3_kaya_mobil.png"  alt="gym courses"> </li>   
+                                </ul>
+                            </div>
+                            <div class="swiper-button-next swiperBtn"></div>
+                            <div class="swiper-button-prev swiperBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!----------------
+                Conclusion
+            ------------------>
+            
+                <section class="conclusion" >
+                    <div class="container">
+
+                        <h2 class="overlined"> Conclusion</h2>
+
+                        <!--Reflection-->
+                        <div class="subsection reflection">
+                            <h3 style="padding-top: 20px;"> Reflection</h3>
+                            <p class="absatz">
+                                As a team, we're delighted with the project's outcome, which received exclusively positive feedback during our presentation 
+                                to the professor.
+                            </p>
+                            <p class="absatz">
+                                In retrospect, we've identified minor unresolved issues, such as the need to reconsider the inclusion of page numbers in the booking process, given the top progress menu's presence, and the undefined purpose of the website's profile feature. 
+                                Addressing these concerns can be achieved through user testing and iterative design.
+                            </p>
+                            <p class="absatz">
+                                However, it's crucial to note that our high-fidelity prototype didn't cover every interaction necessary for a Minimum Viable Product. 
+                                While our professor and peers praised the usability during limited-scale testing, it doesn't replace insights 
+                                from the actual market and target audience.
+                            </p>
+                            <p class="absatz">
+                                
+                                Despite this, we can say in conclusion, that we have met our project objectives and received the highest grade in the module.
+                                We take pride in creating a coherent digital experience reflecting our fictitious brand's 
+                                commitment to luxury, wellness, and elegance.
+                            </p>
+                        </div>
+                        
+                        
+                        <!--Future Steps-->
+                        <div class="subsection reflection">   
+                            <h3 style="padding-block-start: 20px;"> Future Steps </h3>
+                            <p class="absatz">
+                                This project could potentially adapt into a website for an existing brand with a similar essence, look and feel.
+                                However, should we proceed with an official launch for a real target audience, we must take crucial steps.
+                            </p>
+                            <p class="absatz">
+                                Firstly, conducting fresh rounds of user research is vital to understand the specific needs and preferences of the audience and make brand-specific adjustments. 
+                                Additionally, a comprehensive content overhaul is needed, given the current site's tailored focus on Kaya as a brand.
+                            </p>
+                            <p class="absatz">
+                                Furthermore, conducting comprehensive user testing and implementing real-time measurement becomes imperative. 
+                                Insights gained from such testing will guide adjustments to better align with the target audience's expectations.
+                            </p>
+                        </div>
+                            
+                    </div>
+
+                </section>
+        </article>
+    </main>
+        
+    <!-------------
+        FOOTER 
+    --------------->
+
+    <footer>
+        <div class="container">
+            <p class="copyright"> Copyright &copy; 2023 Dorothee Sperker. </p>
+            
+            <p class="scratch"> ✨Designed and built from scratch✨</p>
+
+            <div class="footer-links">
+                <a href="datenschutz.html">Privacy Policy</a>
+                <a href="impressum.html">Impress</a>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <!-- ================ Javascript-File========================-->
+    <script src="js/script.js"></script>
+
+        <!--SwiperJS-->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!--Initialize swiper-->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                grabCursor: true,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+
+    <!-- =============== Ionicon link-Einbindung =============== https://ionic.io/ionicons/usage//-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+
+</body>
+
+
+</html>

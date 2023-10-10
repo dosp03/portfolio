@@ -1,0 +1,532 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dorothee Sperker - Digital Media Marketing Student</title>
+    <meta name="title" content="Dorothee Sperker - Digital Marketing Student">
+    <meta name="description" content="Personal Portfolio of a digital media marketing student displaying her skills in devoloping creative and user-friendly concepts for websites, apps and other media.">
+
+    <!-- wenn Favicon als svg abgespeichert: <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">-->
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/png">
+ 
+    <!--Google Font => kann alternativ auch über css eingebunden werden (wie bei übung)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap">
+
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- Bilder laden => werden vom Browser vorgeladen und nicht erst, wenn sie in Website gebraucht werden-->
+    <link rel="preload" as="image" href="./img/phone_mockup_tilted.png">
+    <link rel="preload" as="image" href="./img/Wireframes Übersicht.png">
+    <!-- 
+        noch weitere Bilder hier einfügen, bei denen Ladezeit schlecht für experience wäre
+    //-->
+
+</head>
+
+<body>
+
+    <button id="scroll-top-btn">
+        <ion-icon class="upIcon" name="arrow-up-outline"></ion-icon>
+    </button>
+
+    <!-------------
+        Navbar 
+    --------------->
+
+    <nav data-nav>
+
+    </div>
+    <div class="content container">
+        <div class="logo"> 
+            <a href="#"> <img src="./img/logo.png"></a>
+        </div>
+
+        <!-- Inhalt außer Logo-->
+        <div class="inner-content">
+
+            <!--Menu-Items-->
+            <ul class="menu-list">
+                <!--vor Menu-Items (nur bei geöffneter Navbar)-->
+                <div class="navbar-top"> 
+                    <div class="logo">
+                        <a href="index_de.html"> <img src="./img/logo.png"></a>
+                    </div>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <li> <a href="#home" class="nav-link home active"> Home </a></li>
+                <li> <a  href="#projects" class="nav-link"> Projekte </a>
+                    <!--<a href="./projects.html" class="nav-link project-page project-btn">
+                        <span> Projekte </span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>-->
+                </li>
+                <li> <a href="#about" class="nav-link about"> Über mich </a></li>
+                
+                <li> <a href="#skills" class="nav-link skills"> Skills </a></li>
+                <li > <a href="#contact" class="nav-link contact"> Kontakt </a></li>
+            </ul>
+
+            <!--Social-Media & Language-->
+            <div class="right-content">
+                <a href="index.html" id="language-toggle">EN</a>
+            </div>
+
+        </div>
+
+        <div class="overlay"> </div>
+        
+        <!--Hamburger-Menu-Icon (bei kleineren screens)-->
+        <div class="hamburger-menu">
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </div>
+    </div>
+
+    </nav>
+
+
+    <main>
+        <article>
+            <!-------------
+                HERO
+            --------------->
+            <section class="section hero" id="home">
+                <div class="container">
+
+                    <div class="hero-content">
+                        <h2 data-reveal="top" data-reveal-delay="0.25s" data-translation="hero-h2"> Dorothee Sperker <!--evtl eresetzen mit Hi, ich bin Doro!--></h2>
+                        <h1 class="hero-title" data-reveal="top" data-reveal-delay="0.5s" data-translation="hero-h1"> Digital Media Marketing Studentin</h1>
+                        <p class="section-text" data-reveal="top" data-reveal-delay="0.7s" data-translation="herotext" >        
+                            Ich gestalte mit Leidenschaft Interfaces.
+                            Mein Ziel? Cleane, übersichtliche und moderne Anwendungen, 
+                            die optimal an die jeweiligen Anforderungen angepasst sind - 
+                            Visuell ansprechend und intuitiv bedienbar.
+                            Meine akademischen Erfahrungen im UX- und UI-Bereich ergänze ich
+                            mit theoretischem und praktischem Wissen in 
+                            Online-Marketing, Web Development und Grafik-Design.
+                        </p>
+
+                        <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                            <a href="CV_de.pdf" class="btn btn-primary" target="_blank"> CV downloaden</a>
+                            <a href="#contact" class="btn btn-secondary"> Kontaktieren </a>
+                        </div>
+                    </div>
+
+                
+                    <div class="hero-image">
+                        <img src="./img/bubbles-animated" class="bubbles" alt="Bubbles" data-reveal="top">
+                        <a href="#projects" class="phone-container">
+                            <img src="./img/phone_mockup.png" alt="Phone Mockup" class="phone-mockup" data-reveal="top" data-reveal-delay="0.25">
+                        </a>
+                    </div>
+                    
+                
+                </div>
+                
+            </section>
+
+            <!-------------
+                Projekte
+            --------------->
+
+            <section class="section projects" id="projects">
+                <div class="container">
+                    <div class="title-wrapper" data-reveal="top">
+                        <h2 class="section-title"> Projekte.</h2>
+                        <img class="title-icon" src="./img/Icons Portfolio/developer.png" alt="">
+                        <p class="absatz"> Meine aktuellsten und wegweisenden Projekte, die während meiner Studienzeit entstanden sind. </p>
+                    </div>
+                    <!--<p class="section-text">
+                        Eine Auswahl meiner aktuellsten Projekte
+                    </p>-->
+
+                    <div class="grid-list">
+                           
+                        <a href="kaya_de.html" class="project-card project-card-1">
+                            <figure class="card-image" data-reveal="right">
+                                <img src="./img/kaya_mockup.png" alt="Projekt Greenergym" class="project-img" loading="lazy">
+                            </figure>
+                        
+                            <div class="card-content" data-reveal="left">
+                                <h3 class="card-title"> Kaya</h3>
+                                <div class="tags">
+                                    <span> Unternehmenskonzept </span>
+                                    <span> UX/UI Design </span>
+                                    <span> Branding </span>
+                                </div>
+                                <p class="card-text">
+                                    Die finale Abgabe für das Modul 'Screen Design' sah die Entwicklung eines Konzepts
+                                    sowie eines digitalen Markendesigns  für ein Hotel unserer Wahl vor, einschließlich eines Prototypen für eine responsive
+                                    Website. Das Ergebnis unserer Arbeit war "Kaya" - ein Fünf-Sterne-Luxus-Wellness-Retreat auf Santorini, 
+                                    das sich auf die ganzheitliche Entspannung von Geist, Körper und Seele konzentriert. 
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="lieberregional-de.html" class="project-card project-card-2">
+                            <figure class="card-image" data-reveal="">
+                                <img src="./img/CMM_mockup.png" alt="Projekt Lieber Regional" class="project-img" loading="lazy">
+                            </figure>
+                            <div class="card-content" data-reveal="right">
+                                <h3 class="card-title"> Lieber Regional</h3>
+                                <div class="tags">
+                                    <span> UX/UI Design </span>
+                                    <span> Cross-Media-Marketing Kampagne </span>
+                                </div>
+                                <p class="card-text">
+                                    Die Aufgabenstellung dieses Projektes  lag in der Konzeption und Präsentation einer crossmedialen Marketingkampagne mit dem Hauptziel, die Wertschätzung für lokale Landwirte zu erhöhen.
+                                    Wir schufen ein konsistentes Storytelling, einen Plan für die Kampagne "Lieber regional", 
+                                    ein Konzept für einen digitalen Marktplatz, auf dem Landwirte ihre Produkte direkt verkaufen 
+                                    können, und Printmedien zur Message-Verbreitung auf verschiedenen Kanälen.
+                                </p>
+                            </div>
+                            <!-- <a href="./lieberregional.html" class="project-btn">
+                                <span> zum Projekt </span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>-->
+                        </a>
+
+                        <a href="greenergym-de.html" class="project-card-3 project-card">
+                            <div class="card-content" data-reveal="left">
+                                <h3 class="card-title"> Greenergym</h3>
+                                <div class="tags">
+                                    <span> Unternehmenskonzept </span>
+                                    <span> Corporate Design </span>
+                                    <span> UX/UI Design </span>
+                                    <span> Branding </span>
+                                </div>
+                                <p class="card-text">
+                                    Greenergym ist ein nachhaltiges Fitnesszentrum mit drei Bereichen: Fitnessstudio, 
+                                    Bekleidungsgeschäft und Lebensmittelgeschäft. Unser Projekt umfasste die Entwicklung 
+                                    des Geschäftskonzepts sowie der Corporate Identity für Greenergym, 
+                                    inklusive des gesamten Corporate Designs. Dazu gehörte die Erstellung von Printmedien, 
+                                    einer Website und einer Fitness-App, die das Gesamterlebnis für die Besucher des 
+                                    Zentrums verbessert. Die App wurde ebenfalls als klickbarer High-Fidelity-Prototyp entwickelt.
+                                </p>
+                            </div>
+                            <figure class="card-image" data-reveal="right">
+                                <img src="/img/Greenergym_mockup.png" style="width: 100%; " alt="Projekt Greenergym" class="project-img" loading="lazy" width="650" height="370">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                        <a href="./projects.html " class="btn btn-secondary"> 
+                            <p> Alle Projekte </p>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-------------
+                ABOUT
+            --------------->
+            <section class="section about" id="about">
+                <div class="container">
+                   
+
+                   <div class="about-grid">
+                       <img class="portrait" src="./img/bewerbungsbild_shirt.png">
+
+                       <div data-reveal="left">
+                           
+                           <div class="title-wrapper">
+                               <h2 class="section-title"> Über mich</h2>
+                               <img class="title-icon" src="./img/Icons Portfolio/user.png" alt="Icon person">
+                           </div>
+                           
+                           <p class="absatz">
+                            Ich bin Dorothee, 22 Jahre alt und studiere Digital Media Marketing an der Hochschule Kaiserslautern.
+                            Derzeit befinde ich mich im Bewerbungsprozess für ein Pflichtpraktikum, an das sich die Bachelorarbeit anschließt. 
+                            </p>
+                            <p class="absatz">
+                                Durch mein Studium habe ich Vorwissen und Erfahrung in den Bereichen Web-, UX- und UI- Design, Programmierung sowie Marketing erlangt. 
+                                Am meisten Spaß bereitet mir aber der UX/UI-Teil meines Studiums.
+                                Für mich ist daher klar, welche Richtung ich für die Zukunft einschlagen möchte.
+                            </p>
+
+                            <p class="absatz">
+                                Ich habe allgemein Freude daran, Neues zu lernen und konnte durch die Erstellung dieses Portfolio von Scratch mit AdobeXD, Spline, HTML, CSS und Javascript viel wertvolles Wissen und Erfahrungen sammeln, 
+                                die in einem Praktikum hilfreich sein können.
+                            </p>
+                            <p class="absatz">
+                                Neben meinem Studium gehe ins ins Fitnessstudio, zeichne und spiele Klavier und Cello. 
+                                Außerdem liebe ich Beach-Volleyball und spiele besonders im Sommer, wenn das Wetter es zulässt.
+                            </p>
+                           <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+ 
+                               <a href="cv_en.pdf" class="btn btn-primary" target="_blank"> CV downloaden </a>
+                               <a href="#contact" class="btn btn-secondary"> Kontaktieren </a>
+                           </div>
+                       </div>
+
+                   </div>
+                </div>
+           </section>
+
+            <!-------------
+                SKILLS
+            --------------->
+
+            <section class="section skills" id="skills">
+                <div class="container">
+
+                    
+
+                    <div class="skills-grid">
+
+
+                
+                        <!--linke Seite-->
+                        <div class="title-wrapper">
+                            <h2 class="section-title"> Was bringe ich mit?</h2>
+                            <img class="title-icon" src="./img/Icons Portfolio/setting.png" alt="Code Icon">
+
+                            
+                        <div class="skills-info" data-reveal="right">
+                                
+                            <h3> Softwarekenntnisse:</h3>
+                            
+                            <ul class="software-grid">
+                                
+                                <!--Prototyping-->
+                                <div class="software-group">
+                                    <h4> Prototyping </h4>
+                                    <li class="program">Figma</li>
+                                    <li class="program">AdobeXD</li>
+                                </div>
+                                
+                                <!--3D-Software-->
+                                <div class="software-group">
+                                    <h4> 3D-Software </h4>
+                                    <li class="program">Blender</li>
+                                    <li class="program">Spline</li>
+                                </div>
+
+                                <!--Adobe Cloud-->
+                                <div class="software-group">
+                                    <h4> Adobe Cloud </h4>
+                                    <li class="program">Illustrator</li>
+                                    <li class="program">InDesign</li>
+                                    <li class="program">Photoshop</li>
+                                </div>
+
+                                <!--Online Marketing-->
+                                <div class="software-group">
+                                    <h4> Online Marketing </h4>
+                                    <li class="program">Google Analytics</li>
+                                    <li class="program">Google Ads</li>
+                                    <li class="program">SEO</li>
+                                </div>
+
+                                <!-- Web Development-->
+                                <div class="software-group">
+                                    <h4> Web Development </h4>
+                                    <li class="program">Wordpress</li>
+                                    <li class="program">Typo3</li>
+                                    <li class="program">HTML & CSS</li>
+                                    <li class="program"> Javascript</li>
+                                    <li class="program"> PHP</li>
+                                </div>
+
+                                <!-- App Development-->
+                                <div class="software-group">
+                                    <h4> App Development </h4>
+                                    <li class="program">Android Studio</li>
+                                    <li class="program">.NET & WPF</li>
+                                    <li class="program"> Java</li>
+                                    <li class="program"> C#</li>
+                                </div>
+
+                            </ul>
+
+                            <p class="section-text" data-translation="skills-desc"> </p>
+                                
+                        </div>
+                    </div>
+                
+                        
+                        <!--rechte Seite-->
+                        
+                        <div class="cards-grid">
+                                
+                            <div class="skills-card">
+                                
+                                <img class="card-icon" src="./img/Icons Portfolio/ux-mobile-svgrepo-com.svg" alt="Prototype" width="55">
+                                <h3> UX-/UI-Design </h3>
+                                <p class="card-text"> 
+                                    Kenntnisse in UX-Vorgehensmodellen und -Methoden (Collaborative UX-Design, Design Thinking, Proto-Personas, 
+                                    User Journey Mapping etc.)
+                                     & praktische Erfahrung durch studentische UX- und UI-Design Projekte.
+                                </p>
+
+                            </div>
+                            <div class="skills-card">
+                                <img class="card-icon" src="./img/Icons Portfolio/3d-modeling (1).png" alt="Prototype" width="55">
+                                <h3> 3D & Grafikdesign </h3>
+                                <p  class="card-text"> 
+                                    Arbeitserfahrung mit 3D-Programmen wie Blender und Spline,
+                                    speziell im Modelling, Sculpting und Grundlagen im Animieren.
+                                    Die Adobe Cloud verwende ich für Grafikdesign und Illustrationen.
+                                </p>
+                            </div>
+                            <div class="skills-card">
+                                <img class="card-icon" src="./img/Icons Portfolio/digital-marketing-svgrepo-com.svg" alt="Prototype" width="55">
+                                <h3> Online Marketing</h3>
+                                <p class="card-text"> 
+                                    Erfahrung in organischer Suchmaschinenoptimierung, Google Analytics, dem Aufsetzen und Durchführen
+                                    von Google Ads Kampagnen einschließlich Keywordrecherche und Optimierung, sowie Social Media Ads Kampagnen.
+                                </p>
+
+                            </div>
+                            <div class="skills-card">
+                                <img class="card-icon" src="./img/Icons Portfolio/code-mobile-svgrepo-com.svg" alt="Prototype" width="55">
+                                <h3> Web & App-Development </h3>
+                                <p class="card-text"> 
+                                    Praktische Erfahrung mit Content Management Systemen (Wordpress & Typo) und Webentwicklung mit HTML, CSS & Vanilla JS.
+                                    App-Entwicklung in Android Studio und Java. Grundlagen in der Windows-App-Entwicklung mit .NET, WPF und C#. 
+                                    Erste Erfahrungen mit React.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+
+            </section>
+
+            <!-------------
+                CONTACT 
+            --------------->
+
+            <section class="section contact" id="contact">
+                
+                <div class="container">
+                    <!--linke Seite-->
+                    <div class="contact-info">
+                        <div class="title-wrapper">
+                            <h2 class="section-title"> Kontaktieren Sie mich!</h2>
+                        </div>
+                        <p class="absatz"> 
+                            Gern können Sie mir bezüglich Ihres Anliegens eine Nachricht über dieses Kontaktformular senden, 
+                            oder mich alternativ über meine anderen Kanäle erreichen:
+                        </p>
+                        </ul>
+                        <!--Social Icons-->
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/dorothee-sperker-hskl" target="_blank">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                                <span> Dorothee Sperker</span>
+                            </a>
+                            <a href="mailto:dorotheesperker@gmail.com" target="_blank ">
+                                <ion-icon name="mail-outline"></ion-icon>
+                                <span> dorotheesperker@gmail.com</span>
+                            </a>
+                            <a href="https://wa.me/1772986149" target="_blank">
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                                <span> +49177 2986149 </span>
+                            </a>
+                            <!--<a href="tel:+491772986149">
+                                <ion-icon name="call-outline"></ion-icon>
+                                <span class="phone-number">+49 177 2986149</span>
+                            </a>
+                            <a href="sms:+491772986149">Send SMS</a>-->
+                        </div>
+                    </div>
+
+                    <!--rechte Seite-->
+                    <div class="contact-form">
+                                                
+                        <form action="https://formsubmit.co/dorotheesperker@gmail.com" method="POST">
+                            <div class="field">
+                                <input type="text" placeholder="Vorname Name" required>
+                                <ion-icon name="person-outline"></ion-icon>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="E-Mail" required>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="message">
+                                <textarea placeholder="Ihre Nachricht" rows="8" cols="30" required></textarea>
+                                <ion-icon name="document-text-outline"></ion-icon>
+                            </div>
+                            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                                <input type="submit" value="Senden" class="btn btn-primary">
+                            </div>
+                        </form>
+
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-------------
+                FOOTER 
+            --------------->
+            <footer>
+                <div class="container">
+                    <p class="copyright"> Copyright &copy; 2023 Dorothee Sperker. </p>
+                    
+                    <p class="scratch"> ✨Designed and built from scratch✨</p>
+        
+                    <div class="footer-links">
+                        <a href="datenschutz.html">Privacy Policy</a>
+                        <a href="impressum.html">Impress</a>
+                    </div>
+                </div>
+            </footer>
+
+        </article>
+    </main>
+
+
+    <!-- ================ Javascript-File========================-->
+    <script src="js/script.js"></script>
+
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("nav .menu-list li a");
+        const bodyId = document.querySelector('body').id;
+
+        //on scroll wird der Menüpunkt für jede Section gehighlighted
+        window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach (section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if(scrollY >= (sectionTop - 500)) {
+            current = section.getAttribute('id');
+            }
+        })
+        
+        navLinks.forEach(a=> {
+            a.classList.remove('active');
+            if(a.classList.contains(current)){
+            a.classList.add('active')
+            }
+        })
+
+        })
+    </script>
+
+
+     <!-- =============== Ionicon link-Einbindung =============== https://ionic.io/ionicons/usage//-->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+
+</body>
+</html>

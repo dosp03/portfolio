@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dorothee Sperker - Digital Media Marketing Student</title>
+    <meta name="title" content="Dorothee Sperker - Digital Marketing Student">
+    <meta name="description" content="Personal Portfolio of a digital media marketing student displaying her skills in devoloping creative and user-friendly concepts for websites, apps and other media.">
+
+    <!-- wenn Favicon als svg abgespeichert: <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">-->
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/png">
+ 
+    <!--Google Font => kann alternativ auch über css eingebunden werden (wie bei übung)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap">
+
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- Bilder laden => werden vom Browser vorgeladen und nicht erst, wenn sie in Website gebraucht werden-->
+    
+</head>
+
+<body class="cmmpage">
+    <button id="scroll-top-btn">
+        <ion-icon class="upIcon" name="arrow-up-outline"></ion-icon>
+    </button>
+
+<!-------------
+        Navbar 
+    --------------->
+    <nav data-nav>
+
+    </div>
+    <div class="content container">
+        <div class="logo"> 
+            <a href="index.html"> <img src="./img/logo.png"></a>
+        </div>
+
+        <!-- Inhalt außer Logo-->
+        <div class="inner-content">
+
+            <!--Menu-Items-->
+            <ul class="menu-list">
+                <!--vor Menu-Items (nur bei geöffneter Navbar)-->
+                <div class="navbar-top"> 
+                    <div class="logo">
+                        <a href="index.html"> <img src="./img/logo.png"></a>
+                    </div>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <li> <a href="index.html" class="nav-link"> Home </a></li>
+                <li> <a href="index.html#projects" class="nav-link"> Projects </a>
+                    <!--<a href="./projects.html" class="nav-link project-btn">
+                        <span> Projekte </span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>-->
+                </li>
+                <li> <a href="index.html#about" class="nav-link"> About </a></li>
+                
+                <li> <a href="index.html#skills" class="nav-link"> Skills </a></li>
+                <li> <a href="index.html#contact" class="nav-link"> Contact </a></li>
+            </ul>
+
+            <!--Social-Media & Language-->
+            <div class="right-content">
+                <!--<div class="social-icons">
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+                </div>-->
+                <a href="lieberregional-de.html" id="language-toggle">DE</a>
+            </div>
+
+        </div>
+
+        <div class="overlay"> </div>
+        
+        <!--Hamburger-Menu-Icon (bei kleineren screens)-->
+        <div class="hamburger-menu">
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </div>
+    </div>
+
+    </nav>
+    
+    <!-------------
+        HERO
+    --------------->
+    <section class="section hero cmm">
+        <div class="container">
+             <div class="hero content">
+                 <h1>Lieber regional.</h1>
+                 <h2> The digital marketplace to support local farmers.</h2> 
+                 <p class="section-text"> 
+                    "Lieber regional" bridges the gap between local farmers and customers as a platform that farmers can showcase their fresh products on daily, 
+                    while customers within a certain radius can purchase these products online. Buyers can either opt for home delivery or pick up the products directly from the farm.
+                 </p>
+             </div>
+             <div class="hero-image project">
+                 <img src="./img/CMM_mockup.png" style="width: 100%; height: 100%;" alt="">
+             </div>
+         </div>
+     </section>   
+
+     <!----------------
+        Project Scope
+    ------------------->
+    <section class="introduction cmm">
+        <div class="container project-goals">
+            
+            <h2 class="overlined"> Project Scope</h2>
+            <p class="absatz"> 
+                "Lieber Regional" is the outcome of our concluding project in the "Cross Media Marketing" module, which I opted for as an elective 
+                during my studies. Our assignment was to develop a cross-media marketing image campaign aimed at enhancing awareness of local farmers 
+                and increasing their sales, with a strong emphasis on encouraging local purchases. The directive was to promote this idea through a
+                digital weekly market and to generate content for a minimum of two distinct media channels, concluding with a campaign pitch as our final presentation.
+            </p>
+            
+            <h4 class="role"> Roles</h4>
+            <p class="absatz">
+                As a team, we collaborated to develop the brand strategy and campaign concept, outlining the overall framework for our campaign content. 
+                While my teammates concentrated on detailed strategic planning, the design of printed materials, and essential project documentation, 
+                my focus centered on refining the app concept and ultimately creating the final designs for both the website and app. 
+                Given these clearly defined responsibilities, and given my specific charge of the digital representation for the Wochenmarkt, 
+                I'll primarily provide a more detailed account of its development here.
+            </p>
+
+            <!-- deutsch: Die Aufgabe, die unsere dreiköpfiges Team-->
+
+            <div class="goal-grid">
+                <div class="goal-1">
+                    <h3 class="number"> 01</h3>
+                    <h3> Strategic Foundation</h3>
+                    <p> 
+                        Initially, we developed a brand strategy to define our digital weekly marketplace's core values and vision, 
+                        shaping its identity, positioning, and audience engagement. 
+                        Then, we pinpointed campaign objectives and our target audience, constructing two personas for clarity. 
+                        On this foundation, we shaped a unified campaign message and slogan for a compelling narrative.
+
+
+                    </p>
+                </div>
+
+                <div class="goal-2">
+                    <h3 class="number"> 02</h3>
+                    <h3>Media Selection & Planning</h3>
+                    <p> 
+                        In the second phase, we carefully selected media channels for extended campaign reach. 
+                        A strategic distribution and timing plan aimed for maximum engagement across platforms. 
+                        For our chosen channels (offline posters, an online shop via website and app, and YouTube ads), 
+                        we collectively formulated a well-defined direction 
+                        for content development.
+
+                        <!--Basierend auf den Scribbles haben wir anschließend in Form von high-fidelity Wireframes und 
+                            einer detaillierten Informationsarchitektur, welche eine nutzerfreundliche Struktur und reibungslose Navigation
+                            sicherstellte, eine Struktur als Fundament für das User Interface erstellt und so das initiale Designkonzept in ein funktionales 
+                            Layout überführt. und einer 
+                        zusammenhängenden Informationsarchitektur
+                        ein strukturelles Modell der Website erstellt um das Fundament für das Unser Interface Design
+                        was fully given.-->
+                        
+                    </p>
+                </div>
+
+                <div class="goal-3">
+                    <h3 class="number"> 03</h3>
+                    <h3> Content Development & Integration</h3>
+                    <p>
+
+                        In the concluding phase, we created the content and visual elements for our chosen channels
+                        to bring the campaign to life. 
+                        This included designing print media, conceptualizing YouTube ads, creating the concept and user interface 
+                        for both a mobile app and a website for the digital marketplace. 
+                        The integration of campaign elements ensured consistent messaging across channels.
+
+                        <!--This phase of our project laid the groundwork for the final User Interface Design and Prototype.
+                        In the final step of our project the styleguide and the moodboard served as the main
+                        Anhaltspunkte anhand derer=> UI-Design (included content creation)-->
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+           
+    <!---------------------
+        Final Presentation
+    ----------------------->
+    <section class="section presentation">
+        <div class="container">
+            <h2 class="overlined"> Campaign Pitch</h2>
+            <p> 
+                The pitch deck showcases key campaign elements: strategic planning, media planning, and a snippet of the content we developed, 
+                meaning the posters and a website/app design example. Note, this is just a fraction of our work. We've also developed a full app, 
+                website, and a YouTube Ads concept, not featured in the deck.
+                For this reason and due to my role developing the digital media content, I'll explore content development for YouTube, offline ads, 
+                the app and website further down.
+
+                <!--
+                    Das Pitch Deck präsentiert wesentliche Elemente der Kampagne: strategische Planung, Mediaplanung und einen Auszug des Kampagneninhalts, 
+                    wie Printmedien und ein Beispiel für das Website-/App-Design. Beachten Sie, dass dies nur ein Bruchteil unserer Arbeit ist. 
+                    Wir haben auch eine vollständige App, Website und ein Konzept für YouTube Ads entwickelt, die nicht im Deck enthalten sind. 
+                    Aus diesem Grund und aufgrund meiner Rolle bei der Entwicklung der Inhalte für die digitalen Medien werde ich die Content-Entwicklung 
+                    für YouTube, Offline-Anzeigen, die App und die Website weiter vertiefen. 
+                -->
+            </p>
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" >
+                    <div class=" slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_01.png" alt="" class="image">
+                   </div>
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_02.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_03.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_04.png" style="border-radius: 8px;" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_05.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_06.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_07.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_08.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_09.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_10.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_11.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_12.png" alt="" class="image">
+                    </div>
+                    
+                    <div class="slide swiper-slide">
+                        <img src="img/cmm_ppp_Seite_13.png" alt="" class="image">
+                    </div>
+                </div>
+                <div class="swiper-button-next swiperBtn"></div>
+                <div class="swiper-button-prev swiperBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!---------------
+        Youtube-Ads
+    ---------------->
+    <section class="storyboard">
+        <div class="container">
+            
+            <h2 class="overlined"> YouTube Ads Concept </h2>
+            <p class="absatz">
+                Our campaign video for YouTube Ads features three interconnected storylines that converge at the end. 
+                The storyboard is to visualize the general idea of the spot as we did not execute this in the scope of our
+                project but wanted to convey the idea to create a comprehensive/cohesive storytelling.
+            </p>
+            <h4 class="role"> Narrative Context</h4>
+            <p> Jürgen, our protagonist, is a local small-scale farmer who leads a tightly scheduled routine on his 
+                agricultural farm. While he is passionate about his profession, it also presents significant challenges for him,
+                as he has to sacrifice most of his free time. Constantly under the pressure of securing his livelihood, he struggles to unwind and 
+                establish a balanced work-life equation. On the other hand, our second protagonist Sarah leads a typical consumenten lifestyle of the typical
+                consumer, not really worrying about her.
+            </p>
+            <!--version for large screens-->
+            <div class="swiper mySwiper large-swiper">
+                <div class="swiper-wrapper" >
+
+                    <!--Slide 1-->
+                    <div class=" slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_1.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 1, full shot, field</h4>
+                                <p class="absatz"> 
+                                    The initial scene portrays Jürgen's early morning routine as he begins his day, already up and about. 
+                                    We witness his workday's progression and his dedicated efforts. During his fieldwork, he plants a seed in the soil. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_2.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 2, medium shot, supermarket</h4>
+                                <p class="absatz"> 
+                                    The film transitions to our second protagonist and the following scenario: Sarah is in the supermarket, 
+                                    placing affordable imported products into her shopping cart. Meanwhile, the scene of Jürgen's work and his care for his sapling 
+                                    is repeatedly intercut.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_3.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 3, full shot, field</h4>
+                                <p class="absatz"> 
+                                    While driving home after her shopping trip, Sarah unexpectedly comes across hardworking Jürgen, carrying two full buckets across the field. 
+                                    He takes a brief break to wipe the sweat off his forehead - a sight that initiates Sarah's contemplation of sustainability and shopping locally.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide 2-->
+                    <div class=" slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_4.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 4, close up, inside</h4>
+                                <p class="absatz"> 
+                                    Back at home, she begins to research local farms and comes across the issues associated with conventional food imports. Over time, a subtle shift in her attitude towards her consumption and purchasing habits takes place.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_5.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 5, full shot, field</h4>
+                                <p class="absatz"> 
+                                    Jürgen tends to his daily tasks, but is baffled by the sapling's lack of growth. 
+                                    Hopeless, he returns to the barn carrying some crates.
+                                    There, Sarah pulls up in her car and lends him a hand with the crates.
+                                    After this, Jürgen offers her his locally-grown produce,which she accepts gratefully.
+                                    
+                                  
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_6.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 6, Medium shot, field</h4>
+                                <p class="absatz"> 
+                                    The video shifts to the final scene: a blossom emerging from the sapling. It symbolizes the growth that every 
+                                    involved party experiences from purchasing local food, benefiting the providers' image and livelihood, users' health 
+                                    and awareness, as well as the environment and nature.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiperBtn"></div>
+                <div class="swiper-button-prev swiperBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!--version for medium screens-->
+            <div class="swiper mySwiper medium-swiper">
+                <div class="swiper-wrapper" >
+
+                    <!--Slide 1-->
+                    <div class=" slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_1.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 1, full shot, field</h4>
+                                <p class="absatz"> 
+                                    The initial scene portrays Jürgen's early morning routine as he begins his day, already up and about. 
+                                    We witness his workday's progression and his dedicated efforts. During his fieldwork, he plants a seed in the soil. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_2.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 2, medium shot, supermarket</h4>
+                                <p class="absatz"> 
+                                    The film transitions to our second protagonist and the following scenario: Sarah is in the supermarket, 
+                                    placing affordable imported products into her shopping cart. Meanwhile, the scene of Jürgen's work and his care for his sapling 
+                                    is repeatedly intercut.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 2-->
+                    <div class="slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_3.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 3, full shot, field</h4>
+                                <p class="absatz"> 
+                                    While driving home after her shopping trip, Sarah unexpectedly comes across hardworking Jürgen, carrying two full buckets across the field. 
+                                    He takes a brief break to wipe the sweat off his forehead - a sight that initiates Sarah's contemplation of sustainability and shopping locally.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_4.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 4, close up, inside</h4>
+                                <p class="absatz"> 
+                                    Back at home, she begins to research local farms and comes across the issues associated with conventional food imports. Over time, a subtle shift in her attitude towards her consumption and purchasing habits takes place.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Slide 3-->
+                    <div class="slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_5.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 5, full shot, field</h4>
+                                <p class="absatz"> 
+                                    Jürgen tends to his daily tasks, but is baffled by the sapling's lack of growth. 
+                                    Hopeless, he returns to the barn carrying some crates.
+                                    There, Sarah pulls up in her car and lends him a hand with the crates.
+                                    After this, Jürgen offers her his locally-grown produce,which she accepts gratefully.
+                                    
+                                  
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_6.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 6, Medium shot, field</h4>
+                                <p class="absatz"> 
+                                    The video shifts to the final scene: a blossom emerging from the sapling. It symbolizes the growth that every 
+                                    involved party experiences from purchasing local food, benefiting the providers' image and livelihood, users' health 
+                                    and awareness, as well as the environment and nature.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="swiper-button-next swiperBtn"></div>
+                <div class="swiper-button-prev swiperBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!--version for small screens-->
+            <div class="swiper mySwiper small-swiper">
+                <div class="swiper-wrapper" >
+
+                    <!--Slide 1-->
+                    <div class=" slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_1.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 1, full shot, field</h4>
+                                <p class="absatz"> 
+                                    The initial scene portrays Jürgen's early morning routine as he begins his day, already up and about. 
+                                    We witness his workday's progression and his dedicated efforts. During his fieldwork, he plants a seed in the soil. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 2-->
+                    <div class="slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_2.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 2, medium shot, supermarket</h4>
+                                <p class="absatz"> 
+                                    The film transitions to our second protagonist and the following scenario: Sarah is in the supermarket, 
+                                    placing affordable imported products into her shopping cart. Meanwhile, the scene of Jürgen's work and his care for his sapling 
+                                    is repeatedly intercut.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 3-->
+                    <div class="slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_3.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 3, full shot, field</h4>
+                                <p class="absatz"> 
+                                    While driving home after her shopping trip, Sarah unexpectedly comes across hardworking Jürgen, carrying two full buckets across the field. 
+                                    He takes a brief break to wipe the sweat off his forehead - a sight that initiates Sarah's contemplation of sustainability and shopping locally.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 4-->
+                    <div class="slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_4.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 4, close up, inside</h4>
+                                <p class="absatz"> 
+                                    Back at home, she begins to research local farms and comes across the issues associated with conventional food imports. Over time, a subtle shift in her attitude towards her consumption and purchasing habits takes place.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Slide 5-->
+                    <div class="slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_5.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 5, full shot, field</h4>
+                                <p class="absatz"> 
+                                    Jürgen tends to his daily tasks, but is baffled by the sapling's lack of growth. 
+                                    Hopeless, he returns to the barn carrying some crates.
+                                    There, Sarah pulls up in her car and lends him a hand with the crates.
+                                    After this, Jürgen offers her his locally-grown produce,which she accepts gratefully.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 6-->
+                    <div class="slide swiper-slide">
+                        <div class="card storyboard-card">
+                            <img src="/img/storyboard_6.png" alt="">
+                            <div class="card-content">
+                                <h4> Scene 6, Medium shot, field</h4>
+                                <p class="absatz"> 
+                                    The video shifts to the final scene: a blossom emerging from the sapling. It symbolizes the growth that every 
+                                    involved party experiences from purchasing local food, benefiting the providers' image and livelihood, users' health 
+                                    and awareness, as well as the environment and nature.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiperBtn"></div>
+                <div class="swiper-button-prev swiperBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!----------------
+        Printmedia
+    ------------------>
+    <section class="section printmedia">
+        <div class="container">
+            <h2 class="overlined"> Printed Media: Posters</h2>
+            <p>
+
+                Our poster design aimed to convey the theme of regional growth and unity through the vibrant imagery of thriving saplings, complemented by our core message, 
+                "Regional gemeinsam wachsen" (Growing together regionally). 
+                We took an approach of simplicity in design, making the message more accessible, memorable, and effective - particularily crucial for outdoor posters,
+                that are displayed in environments where attention is fleeting and visual competition is intense.
+               
+            </p>
+                
+            <p class="absatz">
+                Our simple yet captivating poster design, that is created to appeal to the emotions of the target audience, 
+                aligns with these principles, reducing cognitive load and capturing attention effectively. 
+                Through this approach, we maximized the impact of outdoor advertising. Additionally, we maintained brand identity by incorporating the logo. 
+                This process seamlessly extended our campaign's coherent storytelling, resonating powerfully with our target audience.
+            
+            </p>
+            <ul class="grid">
+                <li><img src="img/plakat1.jpeg" alt=""></li>
+                <li><img src="img/plakat2.jpeg" alt=""></li>
+            </ul>
+        
+        
+        </div>
+    </section>
+         
+
+    
+    <!----------------
+        Wireframing
+    ------------------>
+    <section class="section wireframing">
+        <div class="container">
+
+            <h2 class="overlined"> Wireframing & Information Architecture</h2>
+            <p>
+
+
+                Our main project focus was on an extensive cross-media marketing campaign rather than fully developing our website and app. 
+                Thus, we collaboratively decided to only create detailed visualizations for the most important screens of the app in our wireframes,
+                 to streamline our work. For the remaining screens, we provided concise descriptions to convey the overall concept.
+
+            </p>
+            <p class="absatz">
+                Given the greater complexity of our app concept compared to that of our website, where we simplified the marketplace 
+                by consolidating functions onto a single page, we chose to present the app's information architecture exclusively in this context.
+            </p>
+                
+            
+            <img src="img/infoarchitecture_cmm.png" >
+        
+        </div>
+    </section>
+
+    <!-----------------
+        UI-Design Web
+    ------------------->
+    <section class="design">
+        <div class="container">
+            <!--========== UI Design Website============-->
+
+
+            <h2 class="overlined"> User Interface Design: Website</h2>
+
+
+            <!--Home-->
+            <div class="screen-grid screen-1">
+                <div class="laptop-mockup">
+                    <img src="./img/home_cmm_website.png" alt="kaya landingpage">
+                </div>
+                <div class="description">
+                    <h3> Landingpage </h3>
+                    <p> 
+                        The campaign-specific landing page features a full-screen, looping short film in which the camera remains 
+                        consistently focused on a field, capturing the process of hands planting a seedling. 
+                        The film is an integral part of the campaign's storytelling, with its central theme of growth. Alongside the video, only only the campaign slogan and the call-to-action for the weekly market 
+                        are presented on the landing page, to strategically direct attention towards the message and the call-to-action.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <!--Shop-->
+            <div class="screen-grid screen-1 reverse" >
+                <div class="description">
+                    <h3> Marketplace</h3>
+                    <p> 
+                        Within the header, users are introduced to the concept of the weekly market.
+                        They have the choice to either start browsing right away or log in to access the weekly market with their 
+                        saved preferences (cart, wishlist, and region).
+                        They are presented with categories, new arrivals, and local farms, which can be conveniently filtered based on their type and region.  
+                        Additionally, a direct call-to-action highlighting the benefits of downloading the app is integrated at the bottom of the website.
+                        </p>
+                </div>
+
+                <div class="laptop-mockup">
+                    <img src="./img/wochenmarkt_cmm_website.png" alt="Laptop Mockup">
+                </div>
+
+            </div>
+
+            <!--Productpage-->
+            <div class="screen-grid screen-1">
+                
+                <div class="laptop-mockup">
+                    <img src="./img/productpage_cmm_website.png" alt="Laptop Mockup">
+                </div>
+
+                <div class="description">
+                    
+                    <h3>Product page</h3>
+                    <p> Users are provided with in-depth information about the product. This information is listed by the respective local farms through a standardized template
+                        and includes the product's name, a description, an image gallery, as well as the information which farm it originates from, 
+                        along with the time of listing. The user has the option to add the product to the shopping cart or wishlist. Alternatively, he can explore the 
+                        similar product suggestions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-----------------
+        UI-Design Mobile
+    ------------------->
+    <section class="section design">
+        <div class="container">
+
+            <h2 class="overlined"> User Interface Design: Mobile View</h2>
+
+            <!--Onboarding-->
+            <div class="screen-grid screen-2">
+                <ul class="grid" style="grid-template-columns: 1fr 1fr 1fr; gap:0;">
+                    <li class="screen-item"><img src="/img/intro1_cmm.png"  alt="services - restaurant"> </li>   
+                    <li class="screen-item"> <img src="/img/intro2_cmm.png" alt="menu"></li> 
+                    <li class="screen-item"><img src="/img/intro4_cmm.png"  alt="reservation"> </li>   
+                    <!--<li class="screen-item"> <img src="/img/intro4_cmm.png" alt=""></li>-->
+                </ul>
+                <div class="description"> 
+                    <h3> Onboarding</h3>
+                    <p>
+                        When launching the app for the first time post-download, users are guided through an onboarding experiences that introduces them to all the essential app features. 
+                        This includes familiarizing them with the dashboard, exploring local products, and navigating the ordering process.
+                        For better usability and user understanding, the text is accompanied by an illustration which highlights the menu points 
+                        responsible for each specific function by encircling them.
+                        </p>
+
+                </div>
+            </div>
+
+            <!--login & Home -->
+            
+            <div class="screen-grid screen-3">
+                <div class="description">
+                    <h3> Login & Homescreen</h3>
+                    <p>
+                        Users have the opportunity to log in or sign up if they don't have an account yet. After that, they are 
+                        directed to the Homescreen, where they can view the amount of collected points. This is part
+                        of a payback system offered by "Lieber Regional", which provides a regular discount, after a set amount of money spent.
+                        Furthermore, the user is able to directly search for categories. On the Homescreen, users will also receive new 
+                        offers for fresh food based on their region, which will show up at the bottom of the homescreen. 
+                        If the user has not selected a region yet, they are given the opportunity to set it directly via the location icon
+                        at the start of the screen or in the settings.
+                    </p>
+                </div>
+                <ul class="grid">
+                    <li class="screen-item"><img src="/img/login_cmm_app.png"  alt="Cardiotracking Start"> </li>   
+                    <li class="screen-item"> <img src="/img/home_cmm_app.png" alt="Live Cardiotracking"></li>    
+                </ul>
+
+            </div>
+
+
+
+            <!--Entdecken-->
+            <div class="screen-grid screen-4">
+                <ul class="grid">
+                    <li class="screen-item"><img src="/img/discover1_cmm_app.png"  alt="Cardiotracking Start"></li>   
+                    <li class="screen-item"> <img src="/img/discover2_cmm_app.png" alt="Live Cardiotracking"></li>    
+                </ul>
+                <div class="description">
+                    <h3>  Discover your region</h3>
+                    <p>
+                        By clicking the "Search" button in the navigation menu at the bottom of the screen, the user is directed to the 
+                        "Discover" screen. Here, if the user has already saved their location in the app, a default display of all farms 
+                        and available products within the set region and within a specific radius, is presented. 
+                        Clicking on a specific farm takes the user to that farm's profile. 
+                        The radius can be adjusted in 5-kilometer increments using the button in the top right corner of the map, 
+                        up to a maximum of 30 kilometers. If no region is set, the user will be shown popular farms and products.
+                    </p>
+                </div>
+            </div>
+
+            <!--Cart, favorites and Products-->
+            <div class="screen-grid screen-1 reverse">            
+                <div class="description">
+                    <h3>Shopping Cart &  Wishlist</h3>
+                    <p> 
+                        The wishlist and shopping cart share a similar structure, displaying products that are listed vertically
+                        with their titles, product images, 
+                        farms, prices, and quantities. Users can toggle between viewing saved products 
+                        and saved farms using tabs within the wishlist. In case of an empty shopping cart, a decorative illustration 
+                        is shown, along with two call-to-action buttons leading to the wishlist and the discover page.
+                    </p>
+                </div>
+                <ul class="grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                    <li class="screen-item"><img src="./img/warenkorb_cmm_app.png"  alt=""> </li>   
+                    <li class="screen-item"> <img src="./img/wunschliste_cmm_app.png" alt=""></li> 
+                    <li class="screen-item"><img src="./img/productpage_cmm_app.png"  alt=""> </li>   
+                </ul>
+            </div>
+
+            <!--Produktseite-->
+            <div class="screen-grid screen-3">
+                
+                <ul class="grid">
+                    <li class="screen-item"><img src="/img/categorypage_cmm_app.png" alt="Kategorie Seite"></li>
+                    <li class="screen-item"><img src="/img/productpage_cmm_app.png"  alt=""> </li>   
+                </ul>
+                <div class="description">
+                    <h3>  Category- & Productpage</h3>
+                    <p>
+                        By selecting individual categories on the home screen, the user is directed to an overview page 
+                        displaying all products within a specific category. These products can be filtered based on product type, 
+                        price, date of listing, and whether the vegetables are sourced from organic or conventional farming. 
+                        Users have the option to view products from their default region or change the region via the location 
+                        icon without the need to navigate to settings.
+                        Clicking on product images, both here and throughout the app, will redirect the user to the respective 
+                        product page. These product pages feature image galleries, product details, and buttons for adding items
+                        to the shopping cart or wishlist.
+                    </p>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!---------------------
+        Conclusion
+    ----------------------->
+    <section class=" conclusion">
+        <div class="container">
+            <h2 class="overlined"> Conclusion</h2>
+
+                <!--Reflection-->
+                <div class="subsection reflection">
+                    <h3 style="padding-top: 20px;"> Reflection</h3>
+                    <p> 
+                        With "Lieber Regional," we've successfully crafted a robust brand identity, compelling campaign content, 
+                        and an engaging app and website concept to support local farmers, all of which have recieved  
+                        positive feedback.
+                    </p>
+
+                    <p class="absatz">
+                        However, in hindsight, we've identified areas for improvement in both our campaign and brand concept. In terms of our 
+                        printed materials, producing only one version of the poster, as they are essentially identical except for the images, 
+                        would have been a more cost-effective choice. Our media planning, constrained by budget considerations, 
+                        could have been more meticulous, and we didn't fully elaborate on the product delivery concept.
+                    </p>
+
+                    <p class="absatz">
+                        While we aspired to create a Lieferando-style platform, we recognized that implementing a centralized delivery system 
+                        would necessitate additional resources. Consequently, we entrusted the delivery responsibility to individual farms, 
+                        which could potentially lead to logistical challenges if not carefully coordinated. (Varied delivery times could lead 
+                        to environmental or financial concerns, and deciding how to cover these costs without burdening customers or farmers 
+                        could prove challenging).
+
+                    </p>
+                    <p class="absatz">
+                        These challenges posed obstacles to unlocking the campaign's full potential. 
+                        Meeting these conditions would pave the way for realizing the campaign's maximum impact.
+
+                    </p>
+                </div>
+                
+                <!--Future Steps-->
+                <div class="subsection future">
+                    <h3> Future Steps</h3>
+                    <p class="absatz">
+                        The concept of the "Regional gemeinsam wachsen" campaign remains realistically attainable. 
+                        However, it would require a more detailed financial and budget planning process. 
+                        Assuming "Lieber Regional" as the platform, it may be feasible, but conducting a comprehensive assessment 
+                        of the financial aspect is crucial. We take pride in our achievement of crafting tailored and creative campaign 
+                        content, which we firmly believe would strongly resonate with the target audience if launched successfully.
+                    </p>
+                </div>
+        </div>
+    </section>
+
+    <!-------------
+        FOOTER 
+    --------------->
+
+    <footer>
+        <div class="container">
+            <p class="copyright"> Copyright &copy; 2023 Dorothee Sperker. </p>
+            
+            <p class="scratch"> ✨Designed and built from scratch✨</p>
+
+            <div class="footer-links">
+                <a href="datenschutz.html">Privacy Policy</a>
+                <a href="impressum.html">Impress</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ================ Javascript-File========================-->
+    <script src="js/script.js"></script>
+
+    
+    <!--SwiperJS-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--Initialize swiper-->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            grabCursor: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- =============== Ionicon link-Einbindung =============== https://ionic.io/ionicons/usage//-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+
+</body>
+
+
+</html>
