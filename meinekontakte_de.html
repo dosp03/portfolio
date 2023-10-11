@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dorothee Sperker - Digital Media Marketing Student</title>
+    <meta name="title" content="Dorothee Sperker - Digital Marketing Student">
+    <meta name="description" content="Personal Portfolio of a digital media marketing student displaying her skills in devoloping creative and user-friendly concepts for websites, apps and other media.">
+
+    <!-- wenn Favicon als svg abgespeichert: <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">-->
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/png">
+ 
+    <!--Google Font => kann alternativ auch über css eingebunden werden (wie bei übung)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap">
+
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- Bilder laden => werden vom Browser vorgeladen und nicht erst, wenn sie in Website gebraucht werden-->
+    
+</head>
+
+<body class="mycontactspage de">
+    <button id="scroll-top-btn">
+        <ion-icon class="upIcon" name="arrow-up-outline"></ion-icon>
+    </button>
+
+    <!-------------
+        Navbar 
+    --------------->
+    <nav data-nav>
+
+    </div>
+    <div class="content container">
+        <div class="logo"> 
+            <a href="index.html"> <img src="./img/logo.png"></a>
+        </div>
+
+        <!-- Inhalt außer Logo-->
+        <div class="inner-content">
+
+            <!--Menu-Items-->
+            <ul class="menu-list">
+                <!--vor Menu-Items (nur bei geöffneter Navbar)-->
+                <div class="navbar-top"> 
+                    <div class="logo">
+                        <a href="index.html"> <img src="./img/logo.png"></a>
+                    </div>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <li> <a href="index_de.html" class="nav-link"> Home </a></li>
+                <li> <a href="index_de.html#projects" class="nav-link"> Projekte </a>
+                    <!--<a href="./projects.html" class="nav-link project-btn">
+                        <span> Projekte </span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>-->
+                </li>
+                <li> <a href="index_de.html#about" class="nav-link"> Über mich </a></li>
+                
+                <li> <a href="index_de.html#skills" class="nav-link"> Skills </a></li>
+                <li> <a href="index_de.html#contact" class="nav-link"> Kontakt </a></li>
+            </ul>
+
+            <!--Social-Media & Language-->
+            <div class="right-content">
+                <!--<div class="social-icons">
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+                </div>-->
+                <a href="meinekontakte.html" id="language-toggle">EN</a>
+            </div>
+
+        </div>
+
+        <div class="overlay"> </div>
+        
+        <!--Hamburger-Menu-Icon (bei kleineren screens)-->
+        <div class="hamburger-menu">
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </div>
+    </div>
+
+    </nav>
+    
+    <!-------------
+        HERO
+    --------------->
+    <section class="section hero mycontacts">
+        <div class="container">
+             <div class="hero content">
+                 <h1>Meine Kontakte.</h1>
+                 <h2> Organisiere dein Sozialleben.</h2> 
+                 <p class="section-text"> 
+                    "Meine Kontakte" ist eine Android-App, die im Rahmen des Moduls "Einführung in die App-Entwicklung" speziell für die Verwaltung von Kontakten entwickelt wurde.
+                    Sie erlaubt es, neue Kontakte mit detaillierten Angaben wie Name, E-Mail, Foto, Telefonnummer und zusätzlichen Notizen anzulegen. 
+                    Sie speichert Kontakte, die angezeigt, bearbeitet und gelöscht werden können, in einer alphabetisch sortierten Datenbank und ermöglicht eine einfache Suche nach bestimmten Kontakten. 
+                
+                </p>
+             </div>
+             <div class="hero-image project">
+                 <img src="./img/mycontacts_mockup.png">
+             </div>
+         </div>
+     </section>   
+
+     <!----------------
+        Project Scope
+    ------------------->
+    <section class="introduction">
+        <div class="container project-goals">
+            
+            <h2 class="overlined"> Projektumfang</h2>
+            <p class="absatz"> 
+                Im Rahmen meines Abschlussprojekts im Kurs "Einführung in die App-Entwicklung" habe ich die Anwendung "Meine Kontakte" für Kontaktverwaltung konzipiert und entwickelt. 
+                Zur Umsetzung dieses Projekts nutzte ich Android Studio als Entwicklungsumgebung, wobei ich Java für die Kernlogik und XML für das Layout und das Design verwendete. 
+            </p>
+            <p class="absatz">
+                Die App-Entwicklung erfolgte ohne den Einsatz externer Bibliotheken oder Frameworks, was einen starken Lerneffekt und umfassendes Verständnis der grundlegenden Prinzipien der 
+                Android-App-Entwicklung zur Folge hatte.
+
+            </p>
+            
+            <p class="absatz">
+                Die Hauptfunktionalität der App beschränkte sich zunächst auf das Erstellen, Bearbeiten und Löschen von Kontakteinträgen gemäß dem CRUD-Prinzip. 
+                Allerdings habe ich zusätzliche Funktionen implementiert, um die Benutzererfahrung zu verbessern und die Benutzeroberfläche optisch ansprechender zu gestalten.
+            </p>
+
+            <p class="absatz">
+                Diese Erweiterungen umfassen unter anderem die Integration eines Onboarding-Tutorials, die Implementierung einer Suchleiste zur schnellen Suche nach bestimmten Kontakten, 
+                die Möglichkeit, wichtige Kontakte zu markieren, sowie die einfache Möglichkeit, Profilfotos zu den Kontakten hinzuzufügen.
+            </p>
+    </section>
+         
+    
+    <!---------------
+        App
+    ---------------->
+            <section class="section design">
+                <div class="container">
+
+                    <h2 class="overlined"> App Design & Funktionalität </h2>
+
+                    <!--Splashscreen-->
+                    <div class="screen-grid screen-4">
+                        
+                        <ul class="grid">
+                            <li class="screen-item"><img src="/img/appicon.png"> </li>   
+                            <li class="screen-item"> <img src="/img/splashscreen.png"></li>    
+                        </ul>
+                        <div class="description"> 
+                            <h3> App Icon &  Splashscreen </h3>
+                            <p>
+                                Das Logo der Androidapp "Meine Kontakte" wird als Appicon auf dem Startbildschirm des Smartphones prominent auf dunklem Hintergrund angezeigt
+                                zwecks optimaler Sichtbarkeit.
+                                Bei jedem Öffnen der App erscheint es außerdem als erstes für eine Dauer von 500 Millisekunden auf dem Splashscreen bzw. Launchingscreen als visuelles
+                                Feedback für den Nutzer während des Ladens, was besonders bei großen in der Datenbank abgespeicherten Datenmengen aber auch für die Markenidentifikation vorteilhaft ist.
+                                
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!--Onboarding -->
+                    <div class="screen-grid screen-1 reverse">           
+                        <div class="description">
+                            <h3>Onboarding Tutorial</h3>
+                            <p> 
+                                Durch den "Plus"-Button in der Main-Activity gelangt der Nutzer auf die AddNote Activity, 
+                                in der er neue Kontakte anlegen kann, wozu verpflichtend die Informationen Name und Telefonnummer benötigt werden.
+                                Optional können auch Profilbild, E-Mail-Adresse und zusätzliche Anmerkungen im freien Notizfeld gespeichert werden.
+                                Werden die Pflichtfelder nicht ausgefüllt, wirft die Activity einen
+                                Error und der Kontakt kann nicht gespeichert werden. 
+                             </p>
+                        </div>
+                        <ul class="grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                            <li class="screen-item"><img src="./img/onboarding1.png"  alt=""> </li>   
+                            <li class="screen-item"> <img src="./img/onboarding2.png" alt=""></li> 
+                            <li class="screen-item"><img src="./img/onboarding3.png"  alt=""> </li>   
+                        </ul>
+                    </div>
+    
+    
+                    <!--Home-->
+                    <div class="screen-grid screen-4">
+                        
+                        <ul class="grid">
+                            <li class="screen-item"><img src="/img/mainactivity.png"> </li>   
+                            <li class="screen-item"> <img src="/img/mainactivity_search.png"></li>    
+                        </ul>
+                        <div class="description">
+                            <h3> Home (Main Activity)</h3>
+                            <p>
+                                Die Main Activity der App, d.h. der Homescreen bietet eine Übersicht über alle vom Nutzer in der Datenbank
+                                gespeicherten Kontakte, die innerhalb eines scrollbaren RecyclerViews dargestellt werden.
+                                Von dieser Übersicht aus hat der Nutzer die Möglichkeit, entweder durch Klicken auf spezifische Kontakte,
+                                diese in der Detailansicht zu öffnen und die Informationen anzusehen, neue Kontakte durch Klick auf den "Plus"-
+                                Button zu erstellen, oder über die Suchleiste bestimmte Kontakten zu finden.
+                             </p>
+                        </div>
+
+                    </div>
+
+                    <!--add contact activity-->
+                    <div class="screen-grid screen-1 reverse">              
+                        <div class="description">
+                            <h3> Kontakt erstellen</h3>
+                            <p> 
+                                Durch den "Plus"-Button in der Main-Activity gelangt der Nutzer auf die AddNote Activity, 
+                                in der er neue Kontakte anlegen kann, wozu verpflichtend die Informationen Name und Telefonnummer benötigt werden.
+                                Optional können auch Profilbild, E-Mail-Adresse und zusätzliche Anmerkungen im freien Notizfeld gespeichert werden.
+                                Werden die Pflichtfelder nicht ausgefüllt, wirft die Activity einen
+                                Error und der Kontakt kann nicht gespeichert werden. 
+
+                             </p>
+                        </div>
+                        <ul class="grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 0">
+                            <li class="screen-item"><img src="./img/addcontact1.png"  alt=""> </li>   
+                            <li class="screen-item"> <img src="./img/addcontact2.png" alt=""></li> 
+                            <li class="screen-item"><img src="./img/addcontact3.png"  alt=""> </li>   
+                        </ul>
+                    </div>
+    
+
+                    <!--contact details-->
+                    <div class="screen-grid screen-4">
+                        
+                        <ul class="grid">
+                            <li class="screen-item"><img src="/img/detailsactivity.png"  alt="Cardiotracking Start"> </li>   
+                            <li class="screen-item"> <img src="/img/detailsactivity_scrolled.png" alt="Live Cardiotracking"></li>    
+                        </ul>
+                        <div class="description">
+                            <h3> Details ansehen</h3>
+                            <p>
+                                Durch Klick auf den jeweiligen Eintrag in der Main Activity können Nutzer detaillierte Informationen zu einem bestimmten Kontakt aufrufen. 
+                                Von hier können sie bequem den "Bearbeiten"-Screen aufrufen, um Details zum Kontakt anzupassen – 
+                                indem sie einfach auf die violette "Bearbeiten"-Schaltfläche rechts neben dem Profilbild tippen.
+                                Darüber hinaus wird das Profilbild geschickt beim Scrollen geschickt eingeklappt,
+                                 um den verfügbaren Platz auf dem Bildschirm zu optimieren, insbesondere bei längeren Notizen. 
+                                 Diese Design-Aspekte tragen zu einer cleanen und leicht verständlichen Benutzeroberfläche bei.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!--edit activity-->
+                    <div class="screen-grid screen-3">
+                        
+                        <div class="description"> 
+                            <h3> Kontakte bearbeiten</h3>
+                            <p>
+                                In der Edit activity ermöglicht die Anwendung den Nutzern umfassende Änderungen an den Kontaktinformationen, 
+                                darunter die Option zur Aktualisierung des Profilbildes. Zusätzlich besteht die Möglichkeit, 
+                                einen Kontakt aus dieser Aktivität heraus zu löschen, falls erforderlich. Damit die Kontaktinformationen erfolgreich gespeichert werden können, 
+                                sind bestimmte Pflichtfelder wie "Name" und "Telefonnummer" auszufüllen. Dieser Schritt gewährleistet die Integrität und Genauigkeit der Daten innerhalb der App.
+
+                                <!--- Im Bearbeitungsmodus können alle Informationen einschließlich Bild geändert werden
+                                - Möglichkeit, den Kontakt zu löschen
+                                - wie in der AddNote Activity müssen die Felder Name und Telefonnummer ausgefüllt sein
+
+                                In Edit mode, users have the flexibility to make comprehensive changes to contact information, 
+                                including the option to update the profile picture. Furthermore, the user can delete a contact from this activity when needed.
+                                Similar to the AddNote Activity, certain mandatory fields, namely "name" and "phone number," 
+                                must be completed to successfully save the contact information. This ensures data integrity and accuracy within the app.-->
+                            </p>
+                        </div>
+                        <ul class="grid">
+                            <li class="screen-item"><img src="/img/editcontact1.png"> </li>   
+                            <li class="screen-item"> <img src="/img/editccontact2.png"></li>    
+                        </ul>
+
+                    </div>
+
+                    <!--Löschen-->
+                    <div class="screen-grid screen-4">
+                        
+                        <ul class="grid">
+                            <li class="screen-item"><img src="/img/deletecontact1.png"  alt="Cardiotracking Start"> </li>   
+                            <li class="screen-item"> <img src="/img/deletecontact2.png" alt="Live Cardiotracking"></li>    
+                        </ul>
+                        <div class="description">
+                            <h3> Kontakte löschen (Dialog)</h3>
+                            <p>
+                                Wenn der Nutzer auf den roten "Kontakt löschen" Button klickt, wird ein Dialogfenster eingeblendet, um zu verifizieren, 
+                                ob der Kontakt tatsächlich gelöscht werden soll. Wenn der Nutzer anschließend auf "Kontakt löschen" klickt, 
+                                erfolgt die Löschung des Kontakts sowohl aus der Datenbank als auch aus dem RecyclerView, der die Kontaktliste in der 
+                                Hauptaktivität darstellt. Dies gewährleistet, dass der gelöschte Kontakt nicht mehr in der Übersicht angezeigt wird und 
+                                gleichzeitig die Datenbank auf dem aktuellen Stand bleibt.
+                            </p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </section>
+
+
+            <!---------------------
+                Conclusion
+            ----------------------->
+            <section class="conclusion">
+                <div class="container">
+                    <h2 class="overlined"> Fazit</h2>
+
+                        <!--Reflection-->
+                        <div class="subsection reflection">
+                            <h3 style="padding-top: 20px;"> Reflektion</h3>
+                            <p class="abssatz">
+                                Während der Entwicklung der "Meine Kontakte"-App konnte ich wertvolle Erkenntnisse im Bereich der Android-App-Entwicklung, 
+                                des User Experience Designs und der Datenbankintegration gewinnen. Dieses Projekt bildete die Grundlage für die Vertiefung 
+                                meiner Fähigkeiten und Kenntnisse in diesem Bereich. Wenn ich den Entwicklungsprozess reflektiere, ergeben sich einige potenzielle 
+                                Verbesserungsmöglichkeiten, wie die Implementierung einer E-Mail-Verifizierung und die Integration einer Anruffunktion. 
+                                Des Weiteren sollte für eine optimale User Experience eine alphabetische Scroll-Funktionalität existieren.
+                            
+                            </p>
+                        </div>
+
+
+                        <!--Future Steps-->
+                        <div class="subsection future">
+                            <h3 style="padding-top: 20px;"> Zukunftsausblick</h3>
+                            <p class="absatz">
+                                Jetzt, da die App vollständig entwickelt ist, kann darüber nachgedacht werden, sie in App Stores anzubieten. 
+                                Allerdings ist es fraglich, welchen Nutzen dies aus Nutzer- und Entwicklersicht haben würde.
+                                In Anbetracht der Vielzahl ähnlicher Apps und der leistungsstarken integrierten Funktionen in den Kontaktverwaltungs-Apps moderner 
+                                Smartphones wäre es möglicherweise angebrachter, dieses Projekt als eine wertvolle Gelegenheit zur persönlichen Weiterentwicklung zu sehen, 
+                                anstatt es als ein kommerziell rentables Produkt zu betrachten.
+                            </p>
+                            <p class="absatz">
+                                Egal, ob es als Lernmittel oder als Ausgangspunkt für kommende Projekte betrachtet wird, die Entwicklung des Projekts
+                                "Meine Kontakte" hat eine solide Grundlage für meine persönliche Weiterentwicklung und Verbesserung im Bereich der App-Entwicklung gelegt.
+                            </p>
+                        </div>
+                </div>
+            </section>
+
+            <!-------------
+                FOOTER 
+            --------------->
+
+            <footer>
+                <div class="container">
+                    <p class="copyright"> Copyright &copy; 2023 Dorothee Sperker. </p>
+                    
+                    <p class="scratch"> ✨Designed and built from scratch✨</p>
+
+                    <div class="footer-links">
+                        <a href="datenschutz.html">Datenschutz</a>
+                        <a href="impressum.html">Impressum</a>
+                    </div>
+                </div>
+            </footer>
+    
+    <!-- ================ Javascript-File========================-->
+    <script src="js/script.js"></script>
+
+    
+    <!--SwiperJS-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--Initialize swiper-->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            grabCursor: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- =============== Ionicon link-Einbindung =============== https://ionic.io/ionicons/usage//-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+
+</body>
+
+
+</html>
