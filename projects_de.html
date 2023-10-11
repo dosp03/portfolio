@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Dorothee Sperker - Projects</title>
+    <meta name="title" content="Dorothee Sperker - Digital Marketing Student">
+    <meta name="description" content="Personal Portfolio of a digital media marketing student displaying her skills in devoloping creative and user-friendly concepts for websites, apps and other media.">
+
+    <!-- wenn Favicon als svg abgespeichert: <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">-->
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/png">
+
+    <!--Google Font => kann alternativ auch über css eingebunden werden (wie bei übung)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap">
+
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- Bilder laden => werden vom Browser vorgeladen und nicht erst, wenn sie in Website gebraucht werden
+    <link rel="preload" as="image" href="/untitled/">-->
+    <!-- 
+        
+        noch weitere Bilder hier einfügen, bei denen Ladezeit schlecht für experience wäre
+    
+    //-->
+</head>
+
+
+<body id="project-page"> 
+
+    <button id="scroll-top-btn">
+        <ion-icon class="upIcon" name="arrow-up-outline"></ion-icon>
+    </button>
+
+    <!-------------
+        Navbar 
+    --------------->
+    <nav data-nav>
+
+    </div>
+    <div class="content container">
+        <div class="logo"> 
+            <a href="index_de.html"> <img src="./img/logo.png"></a>
+        </div>
+
+        <!-- Inhalt außer Logo-->
+        <div class="inner-content">
+
+            <!--Menu-Items-->
+            <ul class="menu-list">
+                <!--vor Menu-Items (nur bei geöffneter Navbar)-->
+                <div class="navbar-top"> 
+                    <div class="logo">
+                        <a href="#"> <img src="./img/logo.png"></a>
+                    </div>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <li> <a href="index_de.html#home" class="nav-link home"> Home </a></li>
+                <li> <a  href="index_de.html#projects" class="nav-link project-page"> Projekte </a>
+                    <!--<a href="/projects.html" class="nav-link project-page project-btn active">
+                        <span> Projekte </span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>-->
+                </li>
+                <li> <a href="index_de.html#about" class="nav-link about"> Über mich </a></li>
+                
+                <li> <a href="index_de.html#skills" class="nav-link skills"> Skills </a></li>
+                <li > <a href="index_de.html#contact" class="nav-link contact"> Kontakt </a></li>
+            </ul>
+
+            <!--Social-Media & Language-->
+            <div class="right-content">
+                <a href="projects.html" id="language-toggle">EN</a>
+            </div>
+
+        </div>
+
+        <div class="overlay"> </div>
+        
+        <!--Hamburger-Menu-Icon (bei kleineren screens)-->
+        <div class="hamburger-menu">
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </div>
+    </div>
+
+</nav>
+
+
+
+    <main>
+        <article>
+            
+            <!-------------
+                HERO
+            --------------->
+            <section class="section banner">
+                <div class="container">
+
+                    
+                    <h1> Meine Projekte.</h1>
+                    <h2> Eine Auswahl meiner studentischen Arbeiten.</h2> 
+                    <p class="section-text"> 
+                        Die hier dargestellten Projekte heben sich im Vergleich zu gewöhnlichen Studienabgaben ab und repräsentieren meine aufwendigeren
+                        Arbeiten.
+                        Kleinere Projekte sind nicht enthalten, vielmehr konzentrierte ich mich auf umfangreichere Projekte die von 3D-Modellierung, 
+                        über Branding, Marketing bis hin zu UX/UI-Design reichen und über mehrere Monate liefen oder in Abschlussarbeiten mündeten.
+                    
+                    </p>
+                </div>
+            </section>   
+
+        <!-------------
+            Projects Uni
+        --------------->
+        
+        <section class="project-display">
+            <div class="container">
+            <!--<div class="buttons">
+                <button class="btn btn-primary" type="button" data-btn="1"> All</button>
+                <button class="btn btn-secondary" type="button" data-btn="2"> Marketing Campaign</button>
+                <button class="btn btn-secondary" type="button" data-btn="3"> UX/UI-Design</button>
+                <button class="btn btn-secondary" type="button" data-btn="4"> Branding /CI </button>
+                <button class="btn btn-secondary" type="button" data-btn="5"> 3D Modelling </button>
+                <button class="btn btn-secondary" type="button" data-btn="6"> App Development</button>
+            </div>-->
+
+            <div class="grid-list filterable">
+
+                <!--Project 1-->
+                <a href="kaya.html" class="project-card project-card-1" data-img="1">
+                    <figure class="card-image" data-reveal="right">
+                        <img src="./img/kaya_mockup.png" alt="Projekt Greenergym" class="project-img" loading="lazy">
+                    </figure>
+                
+                    <div class="card-content" data-reveal="left">
+                        <h3 class="card-title"> Kaya</h3>
+                        <div class="tags">
+                            <span> Unternehmenskonzept </span>
+                            <span> UX/UI Design </span>
+                            <span> Branding </span>
+                        </div>
+                        <p class="card-text">
+                            Die finale Abgabe für das Modul 'Screen Design' sah die Entwicklung eines Konzepts
+                            sowie eines digitalen Markendesigns  für ein Hotel unserer Wahl vor, einschließlich eines Prototypen für eine responsive
+                            Website. Das Ergebnis unserer Arbeit war "Kaya" - ein Fünf-Sterne-Luxus-Wellness-Retreat auf Santorini, 
+                            das sich auf die ganzheitliche Entspannung von Geist, Körper und Seele konzentriert. 
+                            
+                        </p>
+                    </div>
+                </a>
+
+                
+                <!--Project 2-->
+                <a href="lieberregional.html" class="project-card project-card-2">
+                    <figure class="card-image" data-reveal="">
+                        <img src="./img/CMM_mockup.png" alt="Projekt Lieber Regional" class="project-img" loading="lazy">
+                    </figure>
+                    <div class="card-content" data-reveal="right">
+                        <h3 class="card-title"> Lieber Regional</h3>
+                        <div class="tags">
+                            <span> UX/UI Design </span>
+                            <span> Cross-Media-Marketing Kampagne </span>
+                        </div>
+                        <p class="card-text">
+                            Die Aufgabenstellung dieses Projektes  lag in der Konzeption und Präsentation einer crossmedialen Marketingkampagne mit dem Hauptziel, die Wertschätzung für lokale Landwirte zu erhöhen.
+                            Wir schufen ein konsistentes Storytelling, einen Plan für die Kampagne "Lieber regional", 
+                            ein Konzept für einen digitalen Marktplatz, auf dem Landwirte ihre Produkte direkt verkaufen 
+                            können, und Printmedien zur Message-Verbreitung auf verschiedenen Kanälen.
+                        </p>
+                    </div>
+                    <!-- <a href="./lieberregional.html" class="project-btn">
+                        <span> zum Projekt </span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>-->
+                </a>
+
+                <!--Project 3-->
+                <a href="greenergym.html" class="project-card project-card-2">
+                    <figure class="card-image" data-reveal="">
+                        <img src="./img/Greenergym_Mockup.png" alt="Projekt Lieber Regional" class="project-img" loading="lazy">
+                    </figure>
+                    <div class="card-content" data-reveal="right">
+                        <h3 class="card-title"> Greenergym</h3>
+                        <div class="tags">
+                            <span> Unternehmenskonzept </span>
+                            <span> Corporate Design </span>
+                            <span> UX/UI Design </span>
+                            <span> Branding </span>
+                        </div>
+                        <p class="card-text">
+                            Greenergym ist ein nachhaltiges Fitnesszentrum mit drei Bereichen: Fitnessstudio, 
+                            Bekleidungsgeschäft und Lebensmittelgeschäft. Unser Projekt umfasste die Entwicklung 
+                            des Geschäftskonzepts sowie der Corporate Identity für Greenergym, 
+                            inklusive des gesamten Corporate Designs. Dazu gehörte die Erstellung von Printmedien, 
+                            einer Website und einer Fitness-App, die das Gesamterlebnis für die Besucher des 
+                            Zentrums verbessert. Die App wurde ebenfalls als klickbarer High-Fidelity-Prototyp entwickelt.
+                        </p>
+                    </div>
+                </a>
+
+                <!--Project 4-->
+                <a href="meinekontakte.html" class="project-card project-card-1">
+                    <figure class="card-image" data-reveal="right">
+                        <img src="./img/mycontacts_mockup.png" alt="Projekt Meine Kontakte" class="mycontacts-project-img" loading="lazy">
+                    </figure>
+                
+                    <div class="card-content" data-reveal="left">
+                        <h3 class="card-title"> Meine Kontakte</h3>
+                        <div class="tags">
+                            <span> App Development </span>
+                            <span> Java</span>
+                            <span> XML </span>
+                            <span> UI Design </span>
+                            
+                        </div>
+                        <p class="card-text">
+                            "Meine Kontakte" ist eine Android-App, die im Rahmen des Moduls "Einführung in die App-Entwicklung" speziell für die Verwaltung von Kontakten entwickelt wurde.
+                            Sie erlaubt es, neue Kontakte mit detaillierten Angaben wie Name, E-Mail, Foto, Telefonnummer und zusätzlichen Notizen anzulegen. 
+                            Sie speichert Kontakte, die angezeigt, bearbeitet und gelöscht werden können, in einer alphabetisch sortierten Datenbank und ermöglicht eine einfache Suche nach bestimmten Kontakten. 
+                        </p>
+                    </div>
+                </a>
+
+                <!--Project 5
+                <a href="blender-series.html" class="project-card project-card-1">
+                    <figure class="card-image" data-reveal="right">
+                        <img src="./img/mockup_blender3.png" alt="Projekt Greenergym" class="blender-project-img" loading="lazy">
+                    </figure>
+                
+                    <div class="card-content" data-reveal="left">
+                        <h3 class="card-title"> Blender</h3>
+                        <div class="tags">
+                            <span> UX Design </span>
+                            <span> UI Design</span>
+                            <span> Unternehmenskonzept </span>
+                            <span> Corporate Design </span>
+                            <span> Branding </span>
+                        </div>
+                        <p class="card-text">
+                            The task of this project was to develop a concept, design and program a CRUD-App in Android studio,
+                            using Java and the markup language XML.
+                            
+                        </p>
+                    </div>
+                </a>-->
+
+                <!--Project 5
+                <a href="spicevoyage.html" class="project-card project-card-1">
+                    <figure class="card-image" data-reveal="right">
+                        <img src="./img/kaya_mockup.png" alt="Projekt Greenergym" class="project-img" loading="lazy">
+                    </figure>
+                
+                    <div class="card-content" data-reveal="left">
+                        <h3 class="card-title"> Spice Voyage</h3>
+                        <div class="tags">
+                            <span> UX Design </span>
+                            <span> UI Design</span>
+                            <span> Unternehmenskonzept </span>
+                            <span> Corporate Design </span>
+                            <span> Branding </span>
+                        </div>
+                        <p class="card-text">
+                            The task of this project was to develop a concept, design and program a CRUD-App in Android studio,
+                            using Java and the markup language XML.
+                            The aim of this project, which was the final submission for the module "Screen Design" of my studies, 
+                            was to develop a concept and a Digital Brand Design for a hotel of our choice, including a prototype for a responsive website design.
+                            Our work resulted in the creation of "Kaya" - a five star luxury wellness retreat in Santorini, 
+                            focusing on the holisitic relaxation of mind, body and soul. 
+                            
+                        </p>
+                    </div>
+                </a>-->
+                
+                
+                <!--long card-->
+                <a href="blender-series.html" class="project-card-3 project-card">
+                    <div class="card-content" data-reveal="left">
+                        <h3 class="card-title"> Blender-series</h3>
+                        <div class="tags">
+                            <span> Unternehmenskonzept </span>
+                            <span> UX Design </span>
+                            <span> UI Design</span>
+                        </div>
+                        <p class="card-text">
+                            Im Rahmen der Portfolioprüfung "Grafikprogrammierung" wurden einzelne Subprojekte erstellt, die einfaches Modeling von Objekten bis hin zu Character Modeling, Rigging, Sculpting,
+                            und Animationen umfassten. Für das abschließende Projekt hatten wir die Möglichkeit, ein Thema unserer Wahl umzusetzen.        
+                        </p>
+                    </div>
+                    <figure class="card-image" data-reveal="right">
+                        <img src="/img/mockup_blender3.png" alt="Projekt Blender" class="blender-project-img" loading="lazy">
+                    </figure>
+                </a>
+            </div>
+        
+                
+        </section>
+    
+        </article>
+    </main>
+
+    <!-------------
+        FOOTER 
+    --------------->
+
+    <footer>
+        <div class="container">
+            <p class="copyright"> Copyright &copy; 2023 Dorothee Sperker. </p>
+            
+            <p class="scratch"> ✨Designed and built from scratch✨</p>
+
+            <div class="footer-links">
+                <a href="datenschutz_de.html">Datenschutz</a>
+                <a href="impressum_de.html">Impressum</a>
+            </div>
+        </div>
+    </footer>
+    <!-- ================ Javascript-File========================-->
+    <script src="js/script.js"></script>
+
+    <!-- =============== Ionicon link-Einbindung =============== https://ionic.io/ionicons/usage//-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     
+</body>
+</html>
