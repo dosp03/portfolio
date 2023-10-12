@@ -1,9 +1,3 @@
-/*
-TO DO:
-- responsive umdrehen => das was in media queries für Screens > 900px steht als normales CSS angeben
--root-elemente überarbeiten und schauen wo dopplungen in code => in root auslagern
-
-*/
 
 
 :root{
@@ -1490,7 +1484,7 @@ Greenergym page
     background-color: var(--cultured);
     margin: 30px 20px;
     border-radius: 8px; /* Apply border radius if desired */
-    height: 600px;
+    height: 670px;
 }
 
 .storyboard-card .card-content{
